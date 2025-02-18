@@ -102,5 +102,21 @@ namespace Sga
                 txtContra.UseSystemPasswordChar = false;
             }
         }
+
+        private void lbl_Registrarse_Click(object sender, EventArgs e)
+        {
+            Registro Fo_registro = new Registro();
+            Fo_registro.Show();
+        }
+
+        private void lbl_Registrarse_MouseEnter(object sender, EventArgs e)
+        {
+            lbl_Registrarse.Cursor = Cursors.Hand;
+        }
+
+        private void lbl_Registrarse_MouseLeave(object sender, EventArgs e)
+        {
+            lbl_Registrarse.Cursor = Cursors.Default;
+        }
     }
 }
