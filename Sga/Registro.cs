@@ -25,7 +25,7 @@ namespace Sga
 
         private void cbox_registro_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (cbox_registro.SelectedItem.ToString() == "Alumno")
+            /*if (cbox_registro_alumno.SelectedItem.ToString() == "Alumno")
             {
                 // Mostrar campos de Alumno y ocultar los de Profesor
                 lblGrado.Visible = true;
@@ -34,14 +34,13 @@ namespace Sga
                 lblMateria.Visible = false;
                 txtMateria.Visible = false;
             }
-            else if (cbox_registro.SelectedItem.ToString() == "Profesor")
-            {
-                // Mostrar campos de Profesor y ocultar los de Alumno
-                lblGrado.Visible = false;
-                txtGrado.Visible = false;
+            */
 
-                lblMateria.Visible = true;
-                txtMateria.Visible = true;
+            if (cbox_registro_alumno.SelectedItem.ToString() == "Profesor")
+            {
+                Registro_profesor form_registroProfesor = new Registro_profesor();
+                form_registroProfesor.Show();
+                this.Close();
             }
         }
     }
