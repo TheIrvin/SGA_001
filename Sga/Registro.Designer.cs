@@ -353,7 +353,7 @@
             this.bt_crearCuenta_profesor.Name = "bt_crearCuenta_profesor";
             this.bt_crearCuenta_profesor.Size = new System.Drawing.Size(110, 36);
             this.bt_crearCuenta_profesor.TabIndex = 62;
-            this.bt_crearCuenta_profesor.Text = "Crear cuenta ";
+            this.bt_crearCuenta_profesor.Text = "Crear cuentaa";
             this.bt_crearCuenta_profesor.UseVisualStyleBackColor = true;
             this.bt_crearCuenta_profesor.Visible = false;
             // 
