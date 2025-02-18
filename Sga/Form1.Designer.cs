@@ -155,7 +155,7 @@
             // lblPerdida
             // 
             this.lblPerdida.AutoSize = true;
-            this.lblPerdida.Location = new System.Drawing.Point(208, 278);
+            this.lblPerdida.Location = new System.Drawing.Point(196, 289);
             this.lblPerdida.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPerdida.Name = "lblPerdida";
             this.lblPerdida.Size = new System.Drawing.Size(149, 13);
@@ -166,16 +166,19 @@
             // lbl_Registrarse
             // 
             this.lbl_Registrarse.AutoSize = true;
-            this.lbl_Registrarse.Location = new System.Drawing.Point(124, 278);
+            this.lbl_Registrarse.Location = new System.Drawing.Point(112, 289);
             this.lbl_Registrarse.Name = "lbl_Registrarse";
             this.lbl_Registrarse.Size = new System.Drawing.Size(60, 13);
             this.lbl_Registrarse.TabIndex = 8;
             this.lbl_Registrarse.Text = "Registrarse";
+            this.lbl_Registrarse.Click += new System.EventHandler(this.lbl_Registrarse_Click);
+            this.lbl_Registrarse.MouseEnter += new System.EventHandler(this.lbl_Registrarse_MouseEnter);
+            this.lbl_Registrarse.MouseLeave += new System.EventHandler(this.lbl_Registrarse_MouseLeave);
             // 
             // lbl_o
             // 
             this.lbl_o.AutoSize = true;
-            this.lbl_o.Location = new System.Drawing.Point(190, 278);
+            this.lbl_o.Location = new System.Drawing.Point(178, 289);
             this.lbl_o.Name = "lbl_o";
             this.lbl_o.Size = new System.Drawing.Size(13, 13);
             this.lbl_o.TabIndex = 9;
