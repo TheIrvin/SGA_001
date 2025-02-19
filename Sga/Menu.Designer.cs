@@ -49,7 +49,7 @@
             this.btnCerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Image = global::Sga.Properties.Resources.Icono_cerrar_FN;
-            this.btnCerrar.Location = new System.Drawing.Point(717, 0);
+            this.btnCerrar.Location = new System.Drawing.Point(572, 0);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(30, 30);
             this.btnCerrar.TabIndex = 4;
@@ -67,9 +67,8 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(748, 65);
+            this.panelMenu.Size = new System.Drawing.Size(603, 65);
             this.panelMenu.TabIndex = 5;
-            this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
             this.panelMenu.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelMenu_MouseMove);
             // 
             // btnRestaurarM
@@ -81,7 +80,7 @@
             this.btnRestaurarM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen;
             this.btnRestaurarM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRestaurarM.Image = global::Sga.Properties.Resources.Icono_Restaurar;
-            this.btnRestaurarM.Location = new System.Drawing.Point(681, 0);
+            this.btnRestaurarM.Location = new System.Drawing.Point(536, 0);
             this.btnRestaurarM.Name = "btnRestaurarM";
             this.btnRestaurarM.Size = new System.Drawing.Size(30, 30);
             this.btnRestaurarM.TabIndex = 7;
@@ -98,7 +97,7 @@
             this.btnMaximizarmenu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen;
             this.btnMaximizarmenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaximizarmenu.Image = global::Sga.Properties.Resources.Icono_Maximizar;
-            this.btnMaximizarmenu.Location = new System.Drawing.Point(681, 0);
+            this.btnMaximizarmenu.Location = new System.Drawing.Point(536, 0);
             this.btnMaximizarmenu.Name = "btnMaximizarmenu";
             this.btnMaximizarmenu.Size = new System.Drawing.Size(30, 30);
             this.btnMaximizarmenu.TabIndex = 6;
@@ -114,7 +113,7 @@
             this.btnMinimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen;
             this.btnMinimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinimizar.Image = global::Sga.Properties.Resources.Icono_Minimizar;
-            this.btnMinimizar.Location = new System.Drawing.Point(645, 0);
+            this.btnMinimizar.Location = new System.Drawing.Point(500, 0);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(30, 30);
             this.btnMinimizar.TabIndex = 5;
@@ -176,7 +175,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sga.Properties.Resources.caja_vale_vrg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(748, 610);
+            this.ClientSize = new System.Drawing.Size(603, 569);
             this.Controls.Add(this.btnMensajes);
             this.Controls.Add(this.btnHorarios);
             this.Controls.Add(this.btnAsistencias);

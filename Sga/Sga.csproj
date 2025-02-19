@@ -149,5 +149,17 @@
   <ItemGroup>
     <None Include="Resources\moren-hsu-VLaKsTkmVhk-unsplash.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %284%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modern-apartment-with-clean-bright-design-abstract-wallpaper-generated-by-ai-modified %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
