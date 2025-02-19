@@ -27,8 +27,10 @@ namespace Sga
             }
         }
 
-        
-
-       
+        private void panel_sga_Paint(object sender, PaintEventArgs e)
+        {
+            panel_sga.BackColor = Color.FromArgb(30, 60, 114);
+            
+        }
     }
 }
