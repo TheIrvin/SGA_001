@@ -20,7 +20,7 @@ namespace Sga
 
         private void lbnConfirmar_Click(object sender, EventArgs e)
         {
-            ListEstud.dataGridView1.Text = lbnConfirmar.Text;
+           
         }
     }
 }
