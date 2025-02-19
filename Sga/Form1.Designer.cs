@@ -32,14 +32,15 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lbllUsu = new System.Windows.Forms.Label();
             this.lbllContra = new System.Windows.Forms.Label();
-            this.txtUsu = new System.Windows.Forms.TextBox();
-            this.txtContra = new System.Windows.Forms.TextBox();
-            this.btnAcceder = new System.Windows.Forms.Button();
+            this.txtBox_Usuario_login = new System.Windows.Forms.TextBox();
+            this.txtBox_Contraseña_login = new System.Windows.Forms.TextBox();
+            this.bt_Acceder_login = new System.Windows.Forms.Button();
             this.pcCerrar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblPerdida = new System.Windows.Forms.LinkLabel();
             this.lbl_Registrarse = new System.Windows.Forms.Label();
             this.lbl_o = new System.Windows.Forms.Label();
+            this.btn_VerContraseña_Click = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -79,50 +80,50 @@
             this.lbllContra.TabIndex = 2;
             this.lbllContra.Text = "___________________________________________________";
             // 
-            // txtUsu
+            // txtBox_Usuario_login
             // 
-            this.txtUsu.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.txtUsu.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsu.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.txtUsu.Location = new System.Drawing.Point(71, 140);
-            this.txtUsu.Name = "txtUsu";
-            this.txtUsu.Size = new System.Drawing.Size(310, 19);
-            this.txtUsu.TabIndex = 2;
-            this.txtUsu.Text = "USUARIO";
-            this.txtUsu.TextChanged += new System.EventHandler(this.txtUsu_TextChanged);
-            this.txtUsu.Enter += new System.EventHandler(this.txtUsu_Enter);
-            this.txtUsu.Leave += new System.EventHandler(this.txtUsu_Leave);
-            this.txtUsu.MouseEnter += new System.EventHandler(this.txtUsu_MouseEnter);
-            this.txtUsu.MouseLeave += new System.EventHandler(this.txtUsu_MouseLeave);
-            this.txtUsu.MouseHover += new System.EventHandler(this.txtUsu_MouseHover);
+            this.txtBox_Usuario_login.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.txtBox_Usuario_login.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBox_Usuario_login.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBox_Usuario_login.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.txtBox_Usuario_login.Location = new System.Drawing.Point(71, 140);
+            this.txtBox_Usuario_login.Name = "txtBox_Usuario_login";
+            this.txtBox_Usuario_login.Size = new System.Drawing.Size(310, 19);
+            this.txtBox_Usuario_login.TabIndex = 2;
+            this.txtBox_Usuario_login.Text = "USUARIO";
+            this.txtBox_Usuario_login.TextChanged += new System.EventHandler(this.txtUsu_TextChanged);
+            this.txtBox_Usuario_login.Enter += new System.EventHandler(this.txtUsu_Enter);
+            this.txtBox_Usuario_login.Leave += new System.EventHandler(this.txtUsu_Leave);
+            this.txtBox_Usuario_login.MouseEnter += new System.EventHandler(this.txtUsu_MouseEnter);
+            this.txtBox_Usuario_login.MouseLeave += new System.EventHandler(this.txtUsu_MouseLeave);
+            this.txtBox_Usuario_login.MouseHover += new System.EventHandler(this.txtUsu_MouseHover);
             // 
-            // txtContra
+            // txtBox_Contraseña_login
             // 
-            this.txtContra.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.txtContra.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContra.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.txtContra.Location = new System.Drawing.Point(73, 192);
-            this.txtContra.Name = "txtContra";
-            this.txtContra.Size = new System.Drawing.Size(309, 19);
-            this.txtContra.TabIndex = 3;
-            this.txtContra.Text = "CONTRASEÑA";
-            this.txtContra.Enter += new System.EventHandler(this.txtContra_Enter);
-            this.txtContra.Leave += new System.EventHandler(this.txtContra_Leave);
+            this.txtBox_Contraseña_login.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.txtBox_Contraseña_login.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBox_Contraseña_login.Font = new System.Drawing.Font("Century Gothic", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBox_Contraseña_login.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.txtBox_Contraseña_login.Location = new System.Drawing.Point(73, 192);
+            this.txtBox_Contraseña_login.Name = "txtBox_Contraseña_login";
+            this.txtBox_Contraseña_login.Size = new System.Drawing.Size(309, 19);
+            this.txtBox_Contraseña_login.TabIndex = 3;
+            this.txtBox_Contraseña_login.Text = "CONTRASEÑA";
+            this.txtBox_Contraseña_login.Enter += new System.EventHandler(this.txtContra_Enter);
+            this.txtBox_Contraseña_login.Leave += new System.EventHandler(this.txtContra_Leave);
             // 
-            // btnAcceder
+            // bt_Acceder_login
             // 
-            this.btnAcceder.BackColor = System.Drawing.Color.Transparent;
-            this.btnAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcceder.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAcceder.Location = new System.Drawing.Point(73, 239);
-            this.btnAcceder.Name = "btnAcceder";
-            this.btnAcceder.Size = new System.Drawing.Size(308, 36);
-            this.btnAcceder.TabIndex = 4;
-            this.btnAcceder.Text = "ACCEDER";
-            this.btnAcceder.UseVisualStyleBackColor = false;
-            this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
+            this.bt_Acceder_login.BackColor = System.Drawing.Color.Transparent;
+            this.bt_Acceder_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_Acceder_login.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_Acceder_login.Location = new System.Drawing.Point(73, 239);
+            this.bt_Acceder_login.Name = "bt_Acceder_login";
+            this.bt_Acceder_login.Size = new System.Drawing.Size(308, 36);
+            this.bt_Acceder_login.TabIndex = 4;
+            this.bt_Acceder_login.Text = "ACCEDER";
+            this.bt_Acceder_login.UseVisualStyleBackColor = false;
+            this.bt_Acceder_login.Click += new System.EventHandler(this.btnAcceder_Click);
             // 
             // pcCerrar
             // 
@@ -184,6 +185,16 @@
             this.lbl_o.TabIndex = 9;
             this.lbl_o.Text = "o";
             // 
+            // btn_VerContraseña_Click
+            // 
+            this.btn_VerContraseña_Click.Location = new System.Drawing.Point(388, 192);
+            this.btn_VerContraseña_Click.Name = "btn_VerContraseña_Click";
+            this.btn_VerContraseña_Click.Size = new System.Drawing.Size(28, 21);
+            this.btn_VerContraseña_Click.TabIndex = 10;
+            this.btn_VerContraseña_Click.Text = "👁️";
+            this.btn_VerContraseña_Click.UseVisualStyleBackColor = true;
+            this.btn_VerContraseña_Click.Click += new System.EventHandler(this.btn_VerContraseña_Click_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -191,14 +202,15 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(444, 311);
+            this.Controls.Add(this.btn_VerContraseña_Click);
             this.Controls.Add(this.lbl_o);
             this.Controls.Add(this.lbl_Registrarse);
             this.Controls.Add(this.lblPerdida);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pcCerrar);
-            this.Controls.Add(this.btnAcceder);
-            this.Controls.Add(this.txtContra);
-            this.Controls.Add(this.txtUsu);
+            this.Controls.Add(this.bt_Acceder_login);
+            this.Controls.Add(this.txtBox_Contraseña_login);
+            this.Controls.Add(this.txtBox_Usuario_login);
             this.Controls.Add(this.lbllContra);
             this.Controls.Add(this.lbllUsu);
             this.Controls.Add(this.lblTitulo);
@@ -220,14 +232,15 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lbllUsu;
         private System.Windows.Forms.Label lbllContra;
-        private System.Windows.Forms.TextBox txtUsu;
-        private System.Windows.Forms.TextBox txtContra;
-        private System.Windows.Forms.Button btnAcceder;
+        private System.Windows.Forms.TextBox txtBox_Usuario_login;
+        private System.Windows.Forms.TextBox txtBox_Contraseña_login;
+        private System.Windows.Forms.Button bt_Acceder_login;
         private System.Windows.Forms.PictureBox pcCerrar;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel lblPerdida;
         private System.Windows.Forms.Label lbl_Registrarse;
         private System.Windows.Forms.Label lbl_o;
+        private System.Windows.Forms.Button btn_VerContraseña_Click;
     }
 }
 

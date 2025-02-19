@@ -29,8 +29,28 @@ namespace Sga
 
         private void panel_sga_Paint(object sender, PaintEventArgs e)
         {
-            panel_sga.BackColor = Color.FromArgb(30, 60, 114);
             
+        }
+
+        private void bt_crearCuenta_profesor_Click(object sender, EventArgs e)
+        {
+            C_el_Registro registro_profesor = new C_el_Registro();
+
+            bool resultado = registro_profesor.RegistrarProfesor(
+
+                txtbox_profesor_nombres.Text,
+                txtbox_profesor_apellidos.Text,
+                txtbox_profesor_cédula.Text,
+                txtbox_profesor_teléfono.Text,
+                txtbox_profesor_gmail.Text,
+                txtbox_profesor_contraseña.Text
+
+            );
+
+            if (resultado)
+            {
+                MessageBox.Show("Profesor registrado con éxito.");
+            }
         }
     }
 }

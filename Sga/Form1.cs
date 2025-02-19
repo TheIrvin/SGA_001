@@ -29,14 +29,38 @@ namespace Sga
 
         private void btnAcceder_Click(object sender, EventArgs e)
         {
-            if (txtUsu.Text == "admin" && txtContra.Text == "1234")
+            C_verificar_login el_Login = new C_verificar_login();
+
+            string gmail = txtBox_Usuario_login.Text; 
+            string contraseña = txtBox_Contraseña_login.Text;  
+            bool resultado = el_Login.VerificarLogin(gmail, contraseña);
+
+            if (resultado)
             {
-                Menu menu = new Menu();
-                menu.Show();
+                MessageBox.Show("Login exitoso!");
+
+                // Obtener el tipo de usuario (Alumno o Profesor)
+                string tipoUsuario = el_Login.ObtenerTipoUsuario(gmail);
+
+                // Abrir el formulario correspondiente según el tipo de usuario
+                if (tipoUsuario == "Alumno")
+                {
+                    // Abrir formulario para alumno
+                    Menu Menu_Alumno = new Menu();
+                    Menu_Alumno.Show();
+                    this.Hide(); // Ocultar el formulario de login
+                }
+                else if (tipoUsuario == "Profesor")
+                {
+                    // Abrir formulario para profesor
+                    Menu_Profesor el_menu_profesor = new Menu_Profesor();
+                    el_menu_profesor.Show();
+                    this.Hide(); // Ocultar el formulario de login
+                }
             }
             else
             {
-                MessageBox.Show("Usuario o contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Gmail o contraseña incorrectos.");
             }
         }
 
@@ -67,39 +91,39 @@ namespace Sga
 
         private void txtUsu_Enter(object sender, EventArgs e)
         {
-            if (txtUsu.Text == "USUARIO")
+            if (txtBox_Usuario_login.Text == "USUARIO")
             {
-                txtUsu.Text = "";
-                txtUsu.ForeColor = Color.Blue;
+                txtBox_Usuario_login.Text = "";
+                txtBox_Usuario_login.ForeColor = Color.Blue;
             }
         }
 
         private void txtUsu_Leave(object sender, EventArgs e)
         {
-            if (txtUsu.Text == "")
+            if (txtBox_Usuario_login.Text == "")
             {
-                txtUsu.Text = "USUARIO";
-                txtUsu.ForeColor = Color.DarkBlue;
+                txtBox_Usuario_login.Text = "USUARIO";
+                txtBox_Usuario_login.ForeColor = Color.DarkBlue;
             }
         }
 
         private void txtContra_Enter(object sender, EventArgs e)
         {
-            if (txtContra.Text == "CONTRASEÑA")
+            if (txtBox_Contraseña_login.Text == "CONTRASEÑA")
             {
-                txtContra.Text = "";
-                txtContra.ForeColor = Color.Blue;
-                txtContra.UseSystemPasswordChar = true;
+                txtBox_Contraseña_login.Text = "";
+                txtBox_Contraseña_login.ForeColor = Color.Blue;
+                txtBox_Contraseña_login.UseSystemPasswordChar = true;
             }
         }
 
         private void txtContra_Leave(object sender, EventArgs e)
         {
-            if (txtContra.Text == "")
+            if (txtBox_Contraseña_login.Text == "")
             {
-                txtContra.Text = "CONTRASEÑA";
-                txtContra.ForeColor = Color.DarkBlue;
-                txtContra.UseSystemPasswordChar = false;
+                txtBox_Contraseña_login.Text = "CONTRASEÑA";
+                txtBox_Contraseña_login.ForeColor = Color.DarkBlue;
+                txtBox_Contraseña_login.UseSystemPasswordChar = false;
             }
         }
 
@@ -117,6 +141,20 @@ namespace Sga
         private void lbl_Registrarse_MouseLeave(object sender, EventArgs e)
         {
             lbl_Registrarse.Cursor = Cursors.Default;
+        }
+
+        private void btn_VerContraseña_Click_Click(object sender, EventArgs e)
+        {
+            if (txtBox_Contraseña_login.PasswordChar == '*')
+            {
+                txtBox_Contraseña_login.PasswordChar = '\0';
+                btn_VerContraseña_Click.Text = "👁️";  
+            }
+            else
+            {
+                txtBox_Contraseña_login.PasswordChar = '*'; 
+                btn_VerContraseña_Click.Text = "👁️‍🗨️";  
+            }
         }
     }
 }
