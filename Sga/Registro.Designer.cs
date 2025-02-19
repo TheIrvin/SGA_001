@@ -47,11 +47,15 @@
             this.txtBox_contraseña_alumno = new System.Windows.Forms.TextBox();
             this.lbl_contraseña_loginAlumno = new System.Windows.Forms.Label();
             this.bt_CrearCuenta_alumno = new System.Windows.Forms.Button();
+            this.panel_sga = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel_sga.SuspendLayout();
             this.SuspendLayout();
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(47, 201);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 13);
@@ -59,14 +63,14 @@
             // 
             // txt_gmail_padres
             // 
-            this.txt_gmail_padres.Location = new System.Drawing.Point(351, 291);
+            this.txt_gmail_padres.Location = new System.Drawing.Point(343, 313);
             this.txt_gmail_padres.Name = "txt_gmail_padres";
             this.txt_gmail_padres.Size = new System.Drawing.Size(175, 20);
             this.txt_gmail_padres.TabIndex = 46;
             // 
             // txtBox_cédula_estudiante
             // 
-            this.txtBox_cédula_estudiante.Location = new System.Drawing.Point(351, 150);
+            this.txtBox_cédula_estudiante.Location = new System.Drawing.Point(343, 172);
             this.txtBox_cédula_estudiante.Name = "txtBox_cédula_estudiante";
             this.txtBox_cédula_estudiante.Size = new System.Drawing.Size(175, 20);
             this.txtBox_cédula_estudiante.TabIndex = 44;
@@ -75,7 +79,8 @@
             // 
             this.lbl_cédula_estudiante.AutoSize = true;
             this.lbl_cédula_estudiante.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cédula_estudiante.Location = new System.Drawing.Point(44, 149);
+            this.lbl_cédula_estudiante.ForeColor = System.Drawing.Color.White;
+            this.lbl_cédula_estudiante.Location = new System.Drawing.Point(36, 171);
             this.lbl_cédula_estudiante.Name = "lbl_cédula_estudiante";
             this.lbl_cédula_estudiante.Size = new System.Drawing.Size(259, 18);
             this.lbl_cédula_estudiante.TabIndex = 43;
@@ -85,7 +90,8 @@
             // 
             this.lbl_nombres_madre.AutoSize = true;
             this.lbl_nombres_madre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nombres_madre.Location = new System.Drawing.Point(44, 219);
+            this.lbl_nombres_madre.ForeColor = System.Drawing.Color.White;
+            this.lbl_nombres_madre.Location = new System.Drawing.Point(36, 241);
             this.lbl_nombres_madre.Name = "lbl_nombres_madre";
             this.lbl_nombres_madre.Size = new System.Drawing.Size(248, 18);
             this.lbl_nombres_madre.TabIndex = 42;
@@ -95,7 +101,8 @@
             // 
             this.lbl_gmail_padres.AutoSize = true;
             this.lbl_gmail_padres.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_gmail_padres.Location = new System.Drawing.Point(44, 293);
+            this.lbl_gmail_padres.ForeColor = System.Drawing.Color.White;
+            this.lbl_gmail_padres.Location = new System.Drawing.Point(36, 312);
             this.lbl_gmail_padres.Name = "lbl_gmail_padres";
             this.lbl_gmail_padres.Size = new System.Drawing.Size(52, 18);
             this.lbl_gmail_padres.TabIndex = 41;
@@ -103,28 +110,28 @@
             // 
             // txtBox_teléfono_padres
             // 
-            this.txtBox_teléfono_padres.Location = new System.Drawing.Point(351, 252);
+            this.txtBox_teléfono_padres.Location = new System.Drawing.Point(343, 274);
             this.txtBox_teléfono_padres.Name = "txtBox_teléfono_padres";
             this.txtBox_teléfono_padres.Size = new System.Drawing.Size(175, 20);
             this.txtBox_teléfono_padres.TabIndex = 40;
             // 
             // txtBox_nombres_madre
             // 
-            this.txtBox_nombres_madre.Location = new System.Drawing.Point(351, 217);
+            this.txtBox_nombres_madre.Location = new System.Drawing.Point(343, 239);
             this.txtBox_nombres_madre.Name = "txtBox_nombres_madre";
             this.txtBox_nombres_madre.Size = new System.Drawing.Size(175, 20);
             this.txtBox_nombres_madre.TabIndex = 39;
             // 
             // txtBox_nombres_padre
             // 
-            this.txtBox_nombres_padre.Location = new System.Drawing.Point(351, 183);
+            this.txtBox_nombres_padre.Location = new System.Drawing.Point(343, 205);
             this.txtBox_nombres_padre.Name = "txtBox_nombres_padre";
             this.txtBox_nombres_padre.Size = new System.Drawing.Size(175, 20);
             this.txtBox_nombres_padre.TabIndex = 38;
             // 
             // txtBox_nombres_estudiante
             // 
-            this.txtBox_nombres_estudiante.Location = new System.Drawing.Point(351, 122);
+            this.txtBox_nombres_estudiante.Location = new System.Drawing.Point(343, 137);
             this.txtBox_nombres_estudiante.Name = "txtBox_nombres_estudiante";
             this.txtBox_nombres_estudiante.Size = new System.Drawing.Size(175, 20);
             this.txtBox_nombres_estudiante.TabIndex = 37;
@@ -133,7 +140,8 @@
             // 
             this.lbl_telefono_padres.AutoSize = true;
             this.lbl_telefono_padres.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_telefono_padres.Location = new System.Drawing.Point(44, 255);
+            this.lbl_telefono_padres.ForeColor = System.Drawing.Color.White;
+            this.lbl_telefono_padres.Location = new System.Drawing.Point(36, 274);
             this.lbl_telefono_padres.Name = "lbl_telefono_padres";
             this.lbl_telefono_padres.Size = new System.Drawing.Size(74, 18);
             this.lbl_telefono_padres.TabIndex = 36;
@@ -143,7 +151,8 @@
             // 
             this.lbl_nombres_estudiante.AutoSize = true;
             this.lbl_nombres_estudiante.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nombres_estudiante.Location = new System.Drawing.Point(44, 121);
+            this.lbl_nombres_estudiante.ForeColor = System.Drawing.Color.White;
+            this.lbl_nombres_estudiante.Location = new System.Drawing.Point(36, 136);
             this.lbl_nombres_estudiante.Name = "lbl_nombres_estudiante";
             this.lbl_nombres_estudiante.Size = new System.Drawing.Size(266, 18);
             this.lbl_nombres_estudiante.TabIndex = 35;
@@ -153,7 +162,8 @@
             // 
             this.lbl_tipoUsuario_alumno.AutoSize = true;
             this.lbl_tipoUsuario_alumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tipoUsuario_alumno.Location = new System.Drawing.Point(44, 71);
+            this.lbl_tipoUsuario_alumno.ForeColor = System.Drawing.Color.White;
+            this.lbl_tipoUsuario_alumno.Location = new System.Drawing.Point(36, 93);
             this.lbl_tipoUsuario_alumno.Name = "lbl_tipoUsuario_alumno";
             this.lbl_tipoUsuario_alumno.Size = new System.Drawing.Size(119, 16);
             this.lbl_tipoUsuario_alumno.TabIndex = 34;
@@ -162,6 +172,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(44, 196);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 13);
@@ -171,7 +182,8 @@
             // 
             this.lbl_nombres_padre.AutoSize = true;
             this.lbl_nombres_padre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nombres_padre.Location = new System.Drawing.Point(44, 185);
+            this.lbl_nombres_padre.ForeColor = System.Drawing.Color.White;
+            this.lbl_nombres_padre.Location = new System.Drawing.Point(36, 207);
             this.lbl_nombres_padre.Name = "lbl_nombres_padre";
             this.lbl_nombres_padre.Size = new System.Drawing.Size(231, 18);
             this.lbl_nombres_padre.TabIndex = 31;
@@ -183,7 +195,7 @@
             this.cbox_registro_alumno.FormattingEnabled = true;
             this.cbox_registro_alumno.Items.AddRange(new object[] {
             "Profesor"});
-            this.cbox_registro_alumno.Location = new System.Drawing.Point(351, 66);
+            this.cbox_registro_alumno.Location = new System.Drawing.Point(343, 88);
             this.cbox_registro_alumno.Name = "cbox_registro_alumno";
             this.cbox_registro_alumno.Size = new System.Drawing.Size(103, 21);
             this.cbox_registro_alumno.TabIndex = 47;
@@ -192,7 +204,7 @@
             // 
             // txtBox_contraseña_alumno
             // 
-            this.txtBox_contraseña_alumno.Location = new System.Drawing.Point(351, 328);
+            this.txtBox_contraseña_alumno.Location = new System.Drawing.Point(343, 350);
             this.txtBox_contraseña_alumno.Name = "txtBox_contraseña_alumno";
             this.txtBox_contraseña_alumno.Size = new System.Drawing.Size(175, 20);
             this.txtBox_contraseña_alumno.TabIndex = 49;
@@ -201,7 +213,8 @@
             // 
             this.lbl_contraseña_loginAlumno.AutoSize = true;
             this.lbl_contraseña_loginAlumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_contraseña_loginAlumno.Location = new System.Drawing.Point(44, 330);
+            this.lbl_contraseña_loginAlumno.ForeColor = System.Drawing.Color.White;
+            this.lbl_contraseña_loginAlumno.Location = new System.Drawing.Point(36, 352);
             this.lbl_contraseña_loginAlumno.Name = "lbl_contraseña_loginAlumno";
             this.lbl_contraseña_loginAlumno.Size = new System.Drawing.Size(95, 18);
             this.lbl_contraseña_loginAlumno.TabIndex = 48;
@@ -209,7 +222,8 @@
             // 
             // bt_CrearCuenta_alumno
             // 
-            this.bt_CrearCuenta_alumno.Location = new System.Drawing.Point(47, 360);
+            this.bt_CrearCuenta_alumno.Font = new System.Drawing.Font("Script MT Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_CrearCuenta_alumno.Location = new System.Drawing.Point(39, 382);
             this.bt_CrearCuenta_alumno.Name = "bt_CrearCuenta_alumno";
             this.bt_CrearCuenta_alumno.Size = new System.Drawing.Size(110, 36);
             this.bt_CrearCuenta_alumno.TabIndex = 50;
@@ -217,11 +231,34 @@
             this.bt_CrearCuenta_alumno.UseVisualStyleBackColor = true;
             this.bt_CrearCuenta_alumno.Click += new System.EventHandler(this.bt_CrearCuenta_alumno_Click);
             // 
+            // panel_sga
+            // 
+            this.panel_sga.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(60)))), ((int)(((byte)(114)))));
+            this.panel_sga.Controls.Add(this.label1);
+            this.panel_sga.Location = new System.Drawing.Point(-2, -3);
+            this.panel_sga.Name = "panel_sga";
+            this.panel_sga.Size = new System.Drawing.Size(628, 71);
+            this.panel_sga.TabIndex = 80;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(45, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 42);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "SGA";
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(623, 408);
+            this.BackColor = System.Drawing.Color.RoyalBlue;
+            this.ClientSize = new System.Drawing.Size(603, 428);
+            this.Controls.Add(this.panel_sga);
             this.Controls.Add(this.bt_CrearCuenta_alumno);
             this.Controls.Add(this.txtBox_contraseña_alumno);
             this.Controls.Add(this.lbl_contraseña_loginAlumno);
@@ -244,6 +281,8 @@
             this.Name = "Registro";
             this.Text = "Registro";
             this.Load += new System.EventHandler(this.Registro_Load);
+            this.panel_sga.ResumeLayout(false);
+            this.panel_sga.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,5 +308,7 @@
         private System.Windows.Forms.TextBox txtBox_contraseña_alumno;
         private System.Windows.Forms.Label lbl_contraseña_loginAlumno;
         private System.Windows.Forms.Button bt_CrearCuenta_alumno;
+        private System.Windows.Forms.Panel panel_sga;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -145,15 +145,15 @@ namespace Sga
 
         private void btn_VerContraseña_Click_Click(object sender, EventArgs e)
         {
-            if (txtBox_Contraseña_login.PasswordChar == '*')
+            if (txtBox_Contraseña_login.UseSystemPasswordChar)
             {
-                txtBox_Contraseña_login.PasswordChar = '\0';
-                btn_VerContraseña_Click.Text = "👁️";  
+                txtBox_Contraseña_login.UseSystemPasswordChar = false;
+                btn_VerContraseña_Click.Text = "👁️";
             }
             else
             {
-                txtBox_Contraseña_login.PasswordChar = '*'; 
-                btn_VerContraseña_Click.Text = "👁️‍🗨️";  
+                txtBox_Contraseña_login.UseSystemPasswordChar = true;
+                btn_VerContraseña_Click.Text = "👁️‍🗨️";
             }
         }
     }

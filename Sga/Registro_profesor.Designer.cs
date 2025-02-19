@@ -53,6 +53,7 @@
             // 
             // bt_crearCuenta_profesor
             // 
+            this.bt_crearCuenta_profesor.Font = new System.Drawing.Font("Script MT Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_crearCuenta_profesor.Location = new System.Drawing.Point(49, 380);
             this.bt_crearCuenta_profesor.Name = "bt_crearCuenta_profesor";
             this.bt_crearCuenta_profesor.Size = new System.Drawing.Size(110, 36);
@@ -78,6 +79,7 @@
             // 
             this.lbl_tipoUsuario_profesor.AutoSize = true;
             this.lbl_tipoUsuario_profesor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tipoUsuario_profesor.ForeColor = System.Drawing.Color.White;
             this.lbl_tipoUsuario_profesor.Location = new System.Drawing.Point(49, 74);
             this.lbl_tipoUsuario_profesor.Name = "lbl_tipoUsuario_profesor";
             this.lbl_tipoUsuario_profesor.Size = new System.Drawing.Size(119, 16);
@@ -95,6 +97,7 @@
             // 
             this.lbl_profesor_nombre.AutoSize = true;
             this.lbl_profesor_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_profesor_nombre.ForeColor = System.Drawing.Color.White;
             this.lbl_profesor_nombre.Location = new System.Drawing.Point(53, 122);
             this.lbl_profesor_nombre.Name = "lbl_profesor_nombre";
             this.lbl_profesor_nombre.Size = new System.Drawing.Size(77, 18);
@@ -105,6 +108,7 @@
             // 
             this.lbl_profesor_cédula.AutoSize = true;
             this.lbl_profesor_cédula.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_profesor_cédula.ForeColor = System.Drawing.Color.White;
             this.lbl_profesor_cédula.Location = new System.Drawing.Point(53, 213);
             this.lbl_profesor_cédula.Name = "lbl_profesor_cédula";
             this.lbl_profesor_cédula.Size = new System.Drawing.Size(60, 18);
@@ -115,6 +119,7 @@
             // 
             this.lbl_profesor_gmail.AutoSize = true;
             this.lbl_profesor_gmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_profesor_gmail.ForeColor = System.Drawing.Color.White;
             this.lbl_profesor_gmail.Location = new System.Drawing.Point(53, 303);
             this.lbl_profesor_gmail.Name = "lbl_profesor_gmail";
             this.lbl_profesor_gmail.Size = new System.Drawing.Size(52, 18);
@@ -146,6 +151,7 @@
             // 
             this.lbl_profesor_teléfono.AutoSize = true;
             this.lbl_profesor_teléfono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_profesor_teléfono.ForeColor = System.Drawing.Color.White;
             this.lbl_profesor_teléfono.Location = new System.Drawing.Point(49, 258);
             this.lbl_profesor_teléfono.Name = "lbl_profesor_teléfono";
             this.lbl_profesor_teléfono.Size = new System.Drawing.Size(74, 18);
@@ -155,6 +161,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(46, 147);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(0, 13);
@@ -164,6 +171,7 @@
             // 
             this.lbl_profesor_apellidos.AutoSize = true;
             this.lbl_profesor_apellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_profesor_apellidos.ForeColor = System.Drawing.Color.White;
             this.lbl_profesor_apellidos.Location = new System.Drawing.Point(53, 167);
             this.lbl_profesor_apellidos.Name = "lbl_profesor_apellidos";
             this.lbl_profesor_apellidos.Size = new System.Drawing.Size(76, 18);
@@ -173,6 +181,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.ForeColor = System.Drawing.Color.White;
             this.label16.Location = new System.Drawing.Point(49, 152);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(0, 13);
@@ -218,6 +227,7 @@
             // 
             this.lbl_profesor_contraseña.AutoSize = true;
             this.lbl_profesor_contraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_profesor_contraseña.ForeColor = System.Drawing.Color.White;
             this.lbl_profesor_contraseña.Location = new System.Drawing.Point(53, 346);
             this.lbl_profesor_contraseña.Name = "lbl_profesor_contraseña";
             this.lbl_profesor_contraseña.Size = new System.Drawing.Size(95, 18);

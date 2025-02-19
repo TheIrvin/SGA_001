@@ -44,17 +44,14 @@ namespace Sga
             C_el_Registro registro_alumno = new C_el_Registro();
 
             bool resultado = registro_alumno.RegistrarAlumno(
-
-
-                txtBox_nombres_estudiante.Text,
-                txtBox_cédula_estudiante.Text,
-                txtBox_nombres_padre.Text,
+                txt_gmail_padres.Text,            // ✅ Gmail
+                txtBox_contraseña_alumno.Text,    // ✅ Contraseña
+                txtBox_nombres_estudiante.Text,   // ✅ Nombre completo del estudiante
+                txtBox_cédula_estudiante.Text,    // ✅ Cédula
+                txtBox_nombres_padre.Text,        // ✅ Nombre del padre
                 txtBox_nombres_madre.Text,
-                txtBox_teléfono_padres.Text,
-                txt_gmail_padres.Text,
-                txtBox_contraseña_alumno.Text
-            );
-
+                txtBox_teléfono_padres.Text       // ✅ Teléfono
+                );
             if (resultado)
             {
                 MessageBox.Show("Alumno registrado con éxito.");
