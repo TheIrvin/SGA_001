@@ -189,9 +189,10 @@
             // 
             this.panel_sga.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(60)))), ((int)(((byte)(114)))));
             this.panel_sga.Controls.Add(this.label1);
+            this.panel_sga.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_sga.Location = new System.Drawing.Point(0, 0);
             this.panel_sga.Name = "panel_sga";
-            this.panel_sga.Size = new System.Drawing.Size(606, 65);
+            this.panel_sga.Size = new System.Drawing.Size(603, 65);
             this.panel_sga.TabIndex = 79;
             this.panel_sga.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_sga_Paint);
             // 
@@ -248,6 +249,7 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.lbl_profesor_apellidos);
             this.Controls.Add(this.label16);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Registro_profesor";
             this.Text = "Registro_profesor";
             this.panel_sga.ResumeLayout(false);
