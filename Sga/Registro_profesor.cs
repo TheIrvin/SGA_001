@@ -37,14 +37,12 @@ namespace Sga
             C_el_Registro registro_profesor = new C_el_Registro();
 
             bool resultado = registro_profesor.RegistrarProfesor(
-
-                txtbox_profesor_nombres.Text,
-                txtbox_profesor_apellidos.Text,
-                txtbox_profesor_cédula.Text,
-                txtbox_profesor_teléfono.Text,
-                txtbox_profesor_gmail.Text,
-                txtbox_profesor_contraseña.Text
-
+                txtbox_profesor_gmail.Text,      
+                txtbox_profesor_contraseña.Text, 
+                txtbox_profesor_nombres.Text,   
+                txtbox_profesor_apellidos.Text,  
+                txtbox_profesor_cédula.Text,     
+                txtbox_profesor_teléfono.Text    
             );
 
             if (resultado)
