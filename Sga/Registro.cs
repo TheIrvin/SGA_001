@@ -57,5 +57,13 @@ namespace Sga
                 MessageBox.Show("Alumno registrado con éxito.");
             }
         }
+
+        private void bt_regresarLogin_Click(object sender, EventArgs e)
+        {
+            Registro registro = new Registro();
+            this.Hide();
+            Form1 menu = new Form1();
+            menu.Show();
+        }
     }
 }

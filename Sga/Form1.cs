@@ -37,30 +37,26 @@ namespace Sga
 
             if (resultado)
             {
-                MessageBox.Show("Login exitoso!");
+                
 
-                // Obtener el tipo de usuario (Alumno o Profesor)
                 string tipoUsuario = el_Login.ObtenerTipoUsuario(gmail);
 
-                // Abrir el formulario correspondiente según el tipo de usuario
                 if (tipoUsuario == "Alumno")
                 {
-                    // Abrir formulario para alumno
                     Menu Menu_Alumno = new Menu();
                     Menu_Alumno.Show();
-                    this.Hide(); // Ocultar el formulario de login
+                    this.Hide(); 
                 }
                 else if (tipoUsuario == "Profesor")
                 {
-                    // Abrir formulario para profesor
                     Menu_Profesor el_menu_profesor = new Menu_Profesor();
                     el_menu_profesor.Show();
-                    this.Hide(); // Ocultar el formulario de login
+                    this.Hide(); 
                 }
             }
             else
             {
-                MessageBox.Show("Gmail o contraseña incorrectos.");
+                MessageBox.Show("Usuario o contraseña incorrecto.");
             }
         }
 
@@ -129,8 +125,11 @@ namespace Sga
 
         private void lbl_Registrarse_Click(object sender, EventArgs e)
         {
+            Form1 el_menu = new Form1();
+            this.Hide();
             Registro Fo_registro = new Registro();
             Fo_registro.Show();
+           
         }
 
         private void lbl_Registrarse_MouseEnter(object sender, EventArgs e)

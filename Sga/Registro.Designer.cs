@@ -49,6 +49,7 @@
             this.bt_CrearCuenta_alumno = new System.Windows.Forms.Button();
             this.panel_sga = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.bt_regresarLogin = new System.Windows.Forms.Button();
             this.panel_sga.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -252,12 +253,24 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "SGA";
             // 
+            // bt_regresarLogin
+            // 
+            this.bt_regresarLogin.Font = new System.Drawing.Font("Script MT Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_regresarLogin.Location = new System.Drawing.Point(234, 382);
+            this.bt_regresarLogin.Name = "bt_regresarLogin";
+            this.bt_regresarLogin.Size = new System.Drawing.Size(110, 36);
+            this.bt_regresarLogin.TabIndex = 81;
+            this.bt_regresarLogin.Text = "Rregresar";
+            this.bt_regresarLogin.UseVisualStyleBackColor = true;
+            this.bt_regresarLogin.Click += new System.EventHandler(this.bt_regresarLogin_Click);
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(603, 428);
+            this.Controls.Add(this.bt_regresarLogin);
             this.Controls.Add(this.panel_sga);
             this.Controls.Add(this.bt_CrearCuenta_alumno);
             this.Controls.Add(this.txtBox_contraseña_alumno);
@@ -279,6 +292,7 @@
             this.Controls.Add(this.lbl_nombres_padre);
             this.Controls.Add(this.label5);
             this.Name = "Registro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro";
             this.Load += new System.EventHandler(this.Registro_Load);
             this.panel_sga.ResumeLayout(false);
@@ -310,5 +324,6 @@
         private System.Windows.Forms.Button bt_CrearCuenta_alumno;
         private System.Windows.Forms.Panel panel_sga;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button bt_regresarLogin;
     }
 }
