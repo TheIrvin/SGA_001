@@ -34,6 +34,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.btnRestaurarM = new System.Windows.Forms.Button();
             this.btnMaximizarmenu = new System.Windows.Forms.Button();
             this.btnMinimizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,6 +54,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -104,6 +106,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.YellowGreen;
+            this.panelMenu.Controls.Add(this.btnRestaurarM);
             this.panelMenu.Controls.Add(this.btnMaximizarmenu);
             this.panelMenu.Controls.Add(this.btnMinimizar);
             this.panelMenu.Controls.Add(this.btnCerrar);
@@ -114,6 +117,24 @@
             this.panelMenu.Size = new System.Drawing.Size(748, 65);
             this.panelMenu.TabIndex = 5;
             this.panelMenu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMenu_Paint);
+            this.panelMenu.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelMenu_MouseMove);
+            // 
+            // btnRestaurarM
+            // 
+            this.btnRestaurarM.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRestaurarM.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRestaurarM.FlatAppearance.BorderSize = 0;
+            this.btnRestaurarM.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnRestaurarM.FlatAppearance.MouseOverBackColor = System.Drawing.Color.PaleGreen;
+            this.btnRestaurarM.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRestaurarM.Image = global::Sga.Properties.Resources.Icono_Restaurar;
+            this.btnRestaurarM.Location = new System.Drawing.Point(681, 0);
+            this.btnRestaurarM.Name = "btnRestaurarM";
+            this.btnRestaurarM.Size = new System.Drawing.Size(30, 30);
+            this.btnRestaurarM.TabIndex = 7;
+            this.btnRestaurarM.UseVisualStyleBackColor = true;
+            this.btnRestaurarM.Visible = false;
+            this.btnRestaurarM.Click += new System.EventHandler(this.btnRestaurarM_Click);
             // 
             // btnMaximizarmenu
             // 
@@ -129,6 +150,7 @@
             this.btnMaximizarmenu.Size = new System.Drawing.Size(30, 30);
             this.btnMaximizarmenu.TabIndex = 6;
             this.btnMaximizarmenu.UseVisualStyleBackColor = true;
+            this.btnMaximizarmenu.Click += new System.EventHandler(this.btnMaximizarmenu_Click);
             // 
             // btnMinimizar
             // 
@@ -144,6 +166,7 @@
             this.btnMinimizar.Size = new System.Drawing.Size(30, 30);
             this.btnMinimizar.TabIndex = 5;
             this.btnMinimizar.UseVisualStyleBackColor = true;
+            this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
             // Menu
             // 
@@ -161,7 +184,6 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Menu";
             this.Text = "Menu";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Menu_Load);
             this.BackgroundImageLayoutChanged += new System.EventHandler(this.Menu_BackgroundImageLayoutChanged);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -183,5 +205,6 @@
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Button btnMaximizarmenu;
         private System.Windows.Forms.Button btnMinimizar;
+        private System.Windows.Forms.Button btnRestaurarM;
     }
 }
