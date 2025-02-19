@@ -153,6 +153,16 @@ namespace Sga.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap moren_hsu_VLaKsTkmVhk_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("moren-hsu-VLaKsTkmVhk-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tarea_pic {
             get {
                 object obj = ResourceManager.GetObject("Tarea_pic", resourceCulture);

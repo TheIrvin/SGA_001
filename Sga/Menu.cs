@@ -76,5 +76,11 @@ namespace Sga
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void btnAsistencias_Click(object sender, EventArgs e)
+        {
+            Asistencia frmAsis = new Asistencia();
+            frmAsis.Show();
+        }
     }
 }

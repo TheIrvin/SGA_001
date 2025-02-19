@@ -28,64 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
             this.btnRestaurarM = new System.Windows.Forms.Button();
             this.btnMaximizarmenu = new System.Windows.Forms.Button();
             this.btnMinimizar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.btnTareas = new System.Windows.Forms.Button();
+            this.btnAsistencias = new System.Windows.Forms.Button();
+            this.btnHorarios = new System.Windows.Forms.Button();
+            this.btnMensajes = new System.Windows.Forms.Button();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.pictureBox1.Image = global::Sga.Properties.Resources.Tarea_pic;
-            this.pictureBox1.Location = new System.Drawing.Point(95, 91);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(149, 158);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Sga.Properties.Resources.Asistencia_pic;
-            this.pictureBox2.Location = new System.Drawing.Point(421, 91);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(139, 159);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Sga.Properties.Resources.Horarios_pic;
-            this.pictureBox3.Location = new System.Drawing.Point(95, 341);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(149, 132);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Sga.Properties.Resources.Mensajes_pic;
-            this.pictureBox4.Location = new System.Drawing.Point(421, 341);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(143, 132);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
             // 
             // btnCerrar
             // 
@@ -168,6 +121,55 @@
             this.btnMinimizar.UseVisualStyleBackColor = true;
             this.btnMinimizar.Click += new System.EventHandler(this.btnMinimizar_Click);
             // 
+            // btnTareas
+            // 
+            this.btnTareas.BackgroundImage = global::Sga.Properties.Resources.Tarea_pic;
+            this.btnTareas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnTareas.FlatAppearance.BorderSize = 0;
+            this.btnTareas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTareas.Location = new System.Drawing.Point(95, 91);
+            this.btnTareas.Name = "btnTareas";
+            this.btnTareas.Size = new System.Drawing.Size(149, 159);
+            this.btnTareas.TabIndex = 6;
+            this.btnTareas.UseVisualStyleBackColor = true;
+            // 
+            // btnAsistencias
+            // 
+            this.btnAsistencias.BackgroundImage = global::Sga.Properties.Resources.Asistencia_pic;
+            this.btnAsistencias.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAsistencias.FlatAppearance.BorderSize = 0;
+            this.btnAsistencias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAsistencias.Location = new System.Drawing.Point(361, 91);
+            this.btnAsistencias.Name = "btnAsistencias";
+            this.btnAsistencias.Size = new System.Drawing.Size(149, 159);
+            this.btnAsistencias.TabIndex = 7;
+            this.btnAsistencias.UseVisualStyleBackColor = true;
+            this.btnAsistencias.Click += new System.EventHandler(this.btnAsistencias_Click);
+            // 
+            // btnHorarios
+            // 
+            this.btnHorarios.BackgroundImage = global::Sga.Properties.Resources.Horarios_pic;
+            this.btnHorarios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnHorarios.FlatAppearance.BorderSize = 0;
+            this.btnHorarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHorarios.Location = new System.Drawing.Point(95, 310);
+            this.btnHorarios.Name = "btnHorarios";
+            this.btnHorarios.Size = new System.Drawing.Size(149, 159);
+            this.btnHorarios.TabIndex = 8;
+            this.btnHorarios.UseVisualStyleBackColor = true;
+            // 
+            // btnMensajes
+            // 
+            this.btnMensajes.BackgroundImage = global::Sga.Properties.Resources.Mensajes_pic;
+            this.btnMensajes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnMensajes.FlatAppearance.BorderSize = 0;
+            this.btnMensajes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMensajes.Location = new System.Drawing.Point(361, 310);
+            this.btnMensajes.Name = "btnMensajes";
+            this.btnMensajes.Size = new System.Drawing.Size(149, 159);
+            this.btnMensajes.TabIndex = 9;
+            this.btnMensajes.UseVisualStyleBackColor = true;
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -175,36 +177,31 @@
             this.BackgroundImage = global::Sga.Properties.Resources.caja_vale_vrg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(748, 610);
+            this.Controls.Add(this.btnMensajes);
+            this.Controls.Add(this.btnHorarios);
+            this.Controls.Add(this.btnAsistencias);
+            this.Controls.Add(this.btnTareas);
             this.Controls.Add(this.panelMenu);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Menu";
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Menu_Load);
             this.BackgroundImageLayoutChanged += new System.EventHandler(this.Menu_BackgroundImageLayoutChanged);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panelMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Button btnMaximizarmenu;
         private System.Windows.Forms.Button btnMinimizar;
         private System.Windows.Forms.Button btnRestaurarM;
+        private System.Windows.Forms.Button btnTareas;
+        private System.Windows.Forms.Button btnAsistencias;
+        private System.Windows.Forms.Button btnHorarios;
+        private System.Windows.Forms.Button btnMensajes;
     }
 }

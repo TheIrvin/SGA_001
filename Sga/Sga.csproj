@@ -146,5 +146,8 @@
   <ItemGroup>
     <None Include="Resources\Icono Restaurar.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moren-hsu-VLaKsTkmVhk-unsplash.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
