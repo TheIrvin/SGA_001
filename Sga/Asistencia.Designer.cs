@@ -30,37 +30,63 @@
         {
             this.lbnRegistro = new System.Windows.Forms.Button();
             this.btnLista = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lbnRegistro
             // 
-            this.lbnRegistro.Location = new System.Drawing.Point(161, 180);
+            this.lbnRegistro.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.lbnRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lbnRegistro.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbnRegistro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.lbnRegistro.Location = new System.Drawing.Point(201, 178);
             this.lbnRegistro.Name = "lbnRegistro";
             this.lbnRegistro.Size = new System.Drawing.Size(170, 112);
             this.lbnRegistro.TabIndex = 0;
             this.lbnRegistro.Text = "Registro de estudiantes";
-            this.lbnRegistro.UseVisualStyleBackColor = true;
+            this.lbnRegistro.UseVisualStyleBackColor = false;
             this.lbnRegistro.Click += new System.EventHandler(this.lbnRegistro_Click);
             // 
             // btnLista
             // 
-            this.btnLista.Location = new System.Drawing.Point(460, 180);
+            this.btnLista.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnLista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLista.Font = new System.Drawing.Font("Times New Roman", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLista.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnLista.Location = new System.Drawing.Point(443, 178);
             this.btnLista.Name = "btnLista";
             this.btnLista.Size = new System.Drawing.Size(170, 112);
             this.btnLista.TabIndex = 1;
             this.btnLista.Text = "Lista";
-            this.btnLista.UseVisualStyleBackColor = true;
+            this.btnLista.UseVisualStyleBackColor = false;
+            this.btnLista.Click += new System.EventHandler(this.btnLista_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label1.Location = new System.Drawing.Point(195, 91);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(427, 34);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Registro y Listado de Estudiantes";
             // 
             // Asistencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Sga.Properties.Resources.asistencias;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLista);
             this.Controls.Add(this.lbnRegistro);
             this.Name = "Asistencia";
             this.Text = "Asistencia";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -68,5 +94,6 @@
 
         private System.Windows.Forms.Button lbnRegistro;
         private System.Windows.Forms.Button btnLista;
+        private System.Windows.Forms.Label label1;
     }
 }

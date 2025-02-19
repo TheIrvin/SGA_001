@@ -19,7 +19,12 @@ namespace Sga
 
         private void txtContraseña_TextChanged(object sender, EventArgs e)
         {
-            if (txtContraseña.Text == "CONTRASEÑA")
+            
+        }
+
+        private void txtContraseña_Enter(object sender, EventArgs e)
+        {
+            if (txtContraseña.Text == "Contraseña")
             {
                 txtContraseña.Text = "";
                 txtContraseña.ForeColor = Color.Blue;
@@ -31,9 +36,10 @@ namespace Sga
         {
             if (txtContraseña.Text == "")
             {
-                txtContraseña.Text = "CONTRASEÑA";
+                    txtContraseña.Text = "Contraseña";
                 txtContraseña.ForeColor = Color.DarkBlue;
                 txtContraseña.UseSystemPasswordChar = false;
+            
             }
         }
 
@@ -50,15 +56,6 @@ namespace Sga
             }
 
         }
-
-        private void pcCerrar_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;    
-        }
     }
+
 }

@@ -124,8 +124,14 @@
   <data name="Asistencia_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Asistencia_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="tigre toyo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tigre toyo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="TEJADO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TEJADO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="asistencias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\asistencias.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="caja vale vrg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\caja vale vrg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,7 +145,7 @@
   <data name="Captura de pantalla 2025-02-14 235307" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla 2025-02-14 235307.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tigre toyo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tigre toyo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="0a7386931541a695d5d390fec975cb34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0a7386931541a695d5d390fec975cb34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

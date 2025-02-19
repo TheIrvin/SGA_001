@@ -22,5 +22,11 @@ namespace Sga
             Confirmacion Conf = new Confirmacion();
             Conf.Show();
         }
+
+        private void btnLista_Click(object sender, EventArgs e)
+        {
+            ListadeEstudiantes ListEstud = new ListadeEstudiantes();
+            ListEstud.Show();
+        }
     }
 }

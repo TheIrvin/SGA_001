@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Sga
 {
-    public partial class RegistroEstudiantes : Form
+    public partial class ListadeEstudiantes : Form
     {
-        ListadeEstudiantes ListEstud;
-        public RegistroEstudiantes()
+        public ListadeEstudiantes()
         {
             InitializeComponent();
-        }
-
-        private void lbnConfirmar_Click(object sender, EventArgs e)
-        {
-            ListEstud.dataGridView1.Text = lbnConfirmar.Text;
         }
     }
 }

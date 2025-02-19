@@ -63,9 +63,29 @@ namespace Sga.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0a7386931541a695d5d390fec975cb34 {
+            get {
+                object obj = ResourceManager.GetObject("0a7386931541a695d5d390fec975cb34", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Asistencia_pic {
             get {
                 object obj = ResourceManager.GetObject("Asistencia_pic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap asistencias {
+            get {
+                object obj = ResourceManager.GetObject("asistencias", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
