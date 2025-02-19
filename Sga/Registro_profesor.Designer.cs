@@ -70,7 +70,7 @@
             // 
             // cbox_tipoUsuario_profesor
             // 
-            this.cbox_tipoUsuario_profesor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbox_tipoUsuario_profesor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.cbox_tipoUsuario_profesor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbox_tipoUsuario_profesor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbox_tipoUsuario_profesor.FormattingEnabled = true;
@@ -98,7 +98,7 @@
             // 
             // txtbox_profesor_nombres
             // 
-            this.txtbox_profesor_nombres.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbox_profesor_nombres.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtbox_profesor_nombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_profesor_nombres.Location = new System.Drawing.Point(331, 191);
             this.txtbox_profesor_nombres.Name = "txtbox_profesor_nombres";
@@ -164,7 +164,7 @@
             // 
             // txtbox_profesor_apellidos
             // 
-            this.txtbox_profesor_apellidos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtbox_profesor_apellidos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtbox_profesor_apellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_profesor_apellidos.Location = new System.Drawing.Point(331, 239);
             this.txtbox_profesor_apellidos.Name = "txtbox_profesor_apellidos";
