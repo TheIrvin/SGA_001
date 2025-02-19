@@ -41,9 +41,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Sga.Properties.Resources.Tarea_pic;
-            this.pictureBox1.Location = new System.Drawing.Point(95, 91);
+            this.pictureBox1.Location = new System.Drawing.Point(127, 112);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(149, 158);
+            this.pictureBox1.Size = new System.Drawing.Size(199, 194);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -51,19 +52,22 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Sga.Properties.Resources.Asistencia_pic;
-            this.pictureBox2.Location = new System.Drawing.Point(421, 91);
+            this.pictureBox2.Location = new System.Drawing.Point(561, 112);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(139, 159);
+            this.pictureBox2.Size = new System.Drawing.Size(185, 196);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Sga.Properties.Resources.Horarios_pic;
-            this.pictureBox3.Location = new System.Drawing.Point(95, 341);
+            this.pictureBox3.Location = new System.Drawing.Point(127, 420);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(149, 132);
+            this.pictureBox3.Size = new System.Drawing.Size(199, 162);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -71,25 +75,26 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Sga.Properties.Resources.Mensajes_pic;
-            this.pictureBox4.Location = new System.Drawing.Point(421, 341);
+            this.pictureBox4.Location = new System.Drawing.Point(561, 420);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(143, 132);
+            this.pictureBox4.Size = new System.Drawing.Size(191, 162);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Sga.Properties.Resources.caja_vale_vrg;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(683, 609);
+            this.ClientSize = new System.Drawing.Size(911, 750);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Menu";
             this.Text = "Menu";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

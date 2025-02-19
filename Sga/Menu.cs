@@ -12,6 +12,7 @@ namespace Sga
 {
     public partial class Menu : Form
     {
+        Asistencia asist;
         public Menu()
         {
             InitializeComponent();
@@ -27,6 +28,11 @@ namespace Sga
             
         }
 
-        
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            asist = new Asistencia();
+            this.AddOwnedForm(asist);
+            asist.Show();
+        }
     }
 }

@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace Sga
 {
-    public partial class Asistencia : Form
+    public partial class RegistroEstudiantes : Form
     {
-        public Asistencia()
+        public RegistroEstudiantes()
         {
             InitializeComponent();
         }
 
-        private void lbnRegistro_Click(object sender, EventArgs e)
+        private void lbnConfirmar_Click(object sender, EventArgs e)
         {
-            Confirmacion Conf = new Confirmacion();
-            Conf.Show();
+
         }
     }
 }
