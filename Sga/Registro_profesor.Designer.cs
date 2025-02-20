@@ -105,7 +105,7 @@
             this.txtbox_profesor_nombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_profesor_nombres.Location = new System.Drawing.Point(331, 191);
             this.txtbox_profesor_nombres.Name = "txtbox_profesor_nombres";
-            this.txtbox_profesor_nombres.Size = new System.Drawing.Size(175, 26);
+            this.txtbox_profesor_nombres.Size = new System.Drawing.Size(175, 19);
             this.txtbox_profesor_nombres.TabIndex = 2;
             // 
             // lbl_profesor_nombre
@@ -154,7 +154,7 @@
             this.txtbox_profesor_teléfono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_profesor_teléfono.Location = new System.Drawing.Point(331, 334);
             this.txtbox_profesor_teléfono.Name = "txtbox_profesor_teléfono";
-            this.txtbox_profesor_teléfono.Size = new System.Drawing.Size(175, 26);
+            this.txtbox_profesor_teléfono.Size = new System.Drawing.Size(175, 19);
             this.txtbox_profesor_teléfono.TabIndex = 5;
             // 
             // txtbox_profesor_cédula
@@ -164,7 +164,7 @@
             this.txtbox_profesor_cédula.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_profesor_cédula.Location = new System.Drawing.Point(331, 286);
             this.txtbox_profesor_cédula.Name = "txtbox_profesor_cédula";
-            this.txtbox_profesor_cédula.Size = new System.Drawing.Size(175, 26);
+            this.txtbox_profesor_cédula.Size = new System.Drawing.Size(175, 19);
             this.txtbox_profesor_cédula.TabIndex = 4;
             // 
             // txtbox_profesor_apellidos
@@ -174,7 +174,7 @@
             this.txtbox_profesor_apellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_profesor_apellidos.Location = new System.Drawing.Point(331, 239);
             this.txtbox_profesor_apellidos.Name = "txtbox_profesor_apellidos";
-            this.txtbox_profesor_apellidos.Size = new System.Drawing.Size(175, 26);
+            this.txtbox_profesor_apellidos.Size = new System.Drawing.Size(175, 19);
             this.txtbox_profesor_apellidos.TabIndex = 3;
             // 
             // lbl_profesor_teléfono
@@ -226,7 +226,7 @@
             this.txtbox_profesor_gmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbox_profesor_gmail.Location = new System.Drawing.Point(331, 383);
             this.txtbox_profesor_gmail.Name = "txtbox_profesor_gmail";
-            this.txtbox_profesor_gmail.Size = new System.Drawing.Size(175, 26);
+            this.txtbox_profesor_gmail.Size = new System.Drawing.Size(175, 19);
             this.txtbox_profesor_gmail.TabIndex = 6;
             // 
             // lblRegistroDocente
