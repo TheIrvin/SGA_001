@@ -51,6 +51,8 @@
             this.btnMaxiRegisProfe = new System.Windows.Forms.Button();
             this.btnRestauRegisProfe = new System.Windows.Forms.Button();
             this.panel_sga = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel_sga.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +63,7 @@
             this.bt_crearCuenta_profesor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_crearCuenta_profesor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_crearCuenta_profesor.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.bt_crearCuenta_profesor.Location = new System.Drawing.Point(193, 466);
+            this.bt_crearCuenta_profesor.Location = new System.Drawing.Point(193, 400);
             this.bt_crearCuenta_profesor.Name = "bt_crearCuenta_profesor";
             this.bt_crearCuenta_profesor.Size = new System.Drawing.Size(166, 53);
             this.bt_crearCuenta_profesor.TabIndex = 7;
@@ -128,7 +130,7 @@
             this.lbl_profesor_cédula.BackColor = System.Drawing.Color.Transparent;
             this.lbl_profesor_cédula.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_profesor_cédula.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbl_profesor_cédula.Location = new System.Drawing.Point(93, 286);
+            this.lbl_profesor_cédula.Location = new System.Drawing.Point(93, 258);
             this.lbl_profesor_cédula.Name = "lbl_profesor_cédula";
             this.lbl_profesor_cédula.Size = new System.Drawing.Size(65, 20);
             this.lbl_profesor_cédula.TabIndex = 71;
@@ -141,7 +143,7 @@
             this.lbl_profesor_gmail.BackColor = System.Drawing.Color.Transparent;
             this.lbl_profesor_gmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_profesor_gmail.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbl_profesor_gmail.Location = new System.Drawing.Point(93, 383);
+            this.lbl_profesor_gmail.Location = new System.Drawing.Point(94, 327);
             this.lbl_profesor_gmail.Name = "lbl_profesor_gmail";
             this.lbl_profesor_gmail.Size = new System.Drawing.Size(55, 20);
             this.lbl_profesor_gmail.TabIndex = 70;
@@ -152,7 +154,7 @@
             this.txtbox_profesor_teléfono.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtbox_profesor_teléfono.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtbox_profesor_teléfono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_profesor_teléfono.Location = new System.Drawing.Point(331, 334);
+            this.txtbox_profesor_teléfono.Location = new System.Drawing.Point(332, 293);
             this.txtbox_profesor_teléfono.Name = "txtbox_profesor_teléfono";
             this.txtbox_profesor_teléfono.Size = new System.Drawing.Size(175, 19);
             this.txtbox_profesor_teléfono.TabIndex = 5;
@@ -162,7 +164,7 @@
             this.txtbox_profesor_cédula.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtbox_profesor_cédula.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtbox_profesor_cédula.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_profesor_cédula.Location = new System.Drawing.Point(331, 286);
+            this.txtbox_profesor_cédula.Location = new System.Drawing.Point(331, 258);
             this.txtbox_profesor_cédula.Name = "txtbox_profesor_cédula";
             this.txtbox_profesor_cédula.Size = new System.Drawing.Size(175, 19);
             this.txtbox_profesor_cédula.TabIndex = 4;
@@ -172,7 +174,7 @@
             this.txtbox_profesor_apellidos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtbox_profesor_apellidos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtbox_profesor_apellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_profesor_apellidos.Location = new System.Drawing.Point(331, 239);
+            this.txtbox_profesor_apellidos.Location = new System.Drawing.Point(331, 224);
             this.txtbox_profesor_apellidos.Name = "txtbox_profesor_apellidos";
             this.txtbox_profesor_apellidos.Size = new System.Drawing.Size(175, 19);
             this.txtbox_profesor_apellidos.TabIndex = 3;
@@ -184,7 +186,7 @@
             this.lbl_profesor_teléfono.BackColor = System.Drawing.Color.Transparent;
             this.lbl_profesor_teléfono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_profesor_teléfono.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbl_profesor_teléfono.Location = new System.Drawing.Point(93, 334);
+            this.lbl_profesor_teléfono.Location = new System.Drawing.Point(94, 293);
             this.lbl_profesor_teléfono.Name = "lbl_profesor_teléfono";
             this.lbl_profesor_teléfono.Size = new System.Drawing.Size(79, 20);
             this.lbl_profesor_teléfono.TabIndex = 66;
@@ -205,7 +207,7 @@
             this.lbl_profesor_apellidos.BackColor = System.Drawing.Color.Transparent;
             this.lbl_profesor_apellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_profesor_apellidos.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lbl_profesor_apellidos.Location = new System.Drawing.Point(93, 239);
+            this.lbl_profesor_apellidos.Location = new System.Drawing.Point(93, 224);
             this.lbl_profesor_apellidos.Name = "lbl_profesor_apellidos";
             this.lbl_profesor_apellidos.Size = new System.Drawing.Size(82, 20);
             this.lbl_profesor_apellidos.TabIndex = 64;
@@ -224,7 +226,7 @@
             this.txtbox_profesor_gmail.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.txtbox_profesor_gmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtbox_profesor_gmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbox_profesor_gmail.Location = new System.Drawing.Point(331, 383);
+            this.txtbox_profesor_gmail.Location = new System.Drawing.Point(332, 327);
             this.txtbox_profesor_gmail.Name = "txtbox_profesor_gmail";
             this.txtbox_profesor_gmail.Size = new System.Drawing.Size(175, 19);
             this.txtbox_profesor_gmail.TabIndex = 6;
@@ -339,6 +341,29 @@
             this.panel_sga.TabIndex = 81;
             this.panel_sga.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel_sga_MouseMove);
             // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(332, 360);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(175, 19);
+            this.textBox1.TabIndex = 82;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label2.Location = new System.Drawing.Point(94, 360);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(102, 20);
+            this.label2.TabIndex = 83;
+            this.label2.Text = "Contraseña";
+            // 
             // Registro_profesor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -347,6 +372,8 @@
             this.BackgroundImage = global::Sga.Properties.Resources.modern_apartment_with_clean_bright_design_abstract_wallpaper_generated_by_ai_modified__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(603, 569);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.panel_sga);
             this.Controls.Add(this.lblRegistroDocente);
             this.Controls.Add(this.txtbox_profesor_gmail);
@@ -401,5 +428,7 @@
         private System.Windows.Forms.Button btnMaxiRegisProfe;
         private System.Windows.Forms.Button btnRestauRegisProfe;
         private System.Windows.Forms.Panel panel_sga;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
