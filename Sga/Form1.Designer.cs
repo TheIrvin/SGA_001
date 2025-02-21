@@ -40,7 +40,7 @@
             this.lblPerdida = new System.Windows.Forms.LinkLabel();
             this.lbl_Registrarse = new System.Windows.Forms.Label();
             this.lbl_o = new System.Windows.Forms.Label();
-            this.btn_VerContraseña_Click = new System.Windows.Forms.Button();
+            this.lb_verContraseña = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pcCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -156,10 +156,11 @@
             // lblPerdida
             // 
             this.lblPerdida.AutoSize = true;
-            this.lblPerdida.Location = new System.Drawing.Point(196, 289);
+            this.lblPerdida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPerdida.Location = new System.Drawing.Point(196, 286);
             this.lblPerdida.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPerdida.Name = "lblPerdida";
-            this.lblPerdida.Size = new System.Drawing.Size(149, 13);
+            this.lblPerdida.Size = new System.Drawing.Size(169, 15);
             this.lblPerdida.TabIndex = 1;
             this.lblPerdida.TabStop = true;
             this.lblPerdida.Text = "¿Has olvidado tu contraseña?";
@@ -167,9 +168,10 @@
             // lbl_Registrarse
             // 
             this.lbl_Registrarse.AutoSize = true;
-            this.lbl_Registrarse.Location = new System.Drawing.Point(112, 289);
+            this.lbl_Registrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_Registrarse.Location = new System.Drawing.Point(93, 286);
             this.lbl_Registrarse.Name = "lbl_Registrarse";
-            this.lbl_Registrarse.Size = new System.Drawing.Size(60, 13);
+            this.lbl_Registrarse.Size = new System.Drawing.Size(77, 16);
             this.lbl_Registrarse.TabIndex = 8;
             this.lbl_Registrarse.Text = "Registrarse";
             this.lbl_Registrarse.Click += new System.EventHandler(this.lbl_Registrarse_Click);
@@ -179,21 +181,24 @@
             // lbl_o
             // 
             this.lbl_o.AutoSize = true;
-            this.lbl_o.Location = new System.Drawing.Point(178, 289);
+            this.lbl_o.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_o.Location = new System.Drawing.Point(176, 286);
             this.lbl_o.Name = "lbl_o";
-            this.lbl_o.Size = new System.Drawing.Size(13, 13);
+            this.lbl_o.Size = new System.Drawing.Size(15, 16);
             this.lbl_o.TabIndex = 9;
             this.lbl_o.Text = "o";
             // 
-            // btn_VerContraseña_Click
+            // lb_verContraseña
             // 
-            this.btn_VerContraseña_Click.Location = new System.Drawing.Point(388, 192);
-            this.btn_VerContraseña_Click.Name = "btn_VerContraseña_Click";
-            this.btn_VerContraseña_Click.Size = new System.Drawing.Size(28, 21);
-            this.btn_VerContraseña_Click.TabIndex = 10;
-            this.btn_VerContraseña_Click.Text = "👁️";
-            this.btn_VerContraseña_Click.UseVisualStyleBackColor = true;
-            this.btn_VerContraseña_Click.Click += new System.EventHandler(this.btn_VerContraseña_Click_Click);
+            this.lb_verContraseña.AutoSize = true;
+            this.lb_verContraseña.BackColor = System.Drawing.Color.Transparent;
+            this.lb_verContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_verContraseña.Location = new System.Drawing.Point(389, 190);
+            this.lb_verContraseña.Name = "lb_verContraseña";
+            this.lb_verContraseña.Size = new System.Drawing.Size(34, 25);
+            this.lb_verContraseña.TabIndex = 10;
+            this.lb_verContraseña.Text = "👁️";
+            this.lb_verContraseña.Click += new System.EventHandler(this.lb_verContraseña_Click);
             // 
             // Form1
             // 
@@ -202,7 +207,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(444, 311);
-            this.Controls.Add(this.btn_VerContraseña_Click);
+            this.Controls.Add(this.lb_verContraseña);
             this.Controls.Add(this.lbl_o);
             this.Controls.Add(this.lbl_Registrarse);
             this.Controls.Add(this.lblPerdida);
@@ -240,7 +245,7 @@
         private System.Windows.Forms.LinkLabel lblPerdida;
         private System.Windows.Forms.Label lbl_Registrarse;
         private System.Windows.Forms.Label lbl_o;
-        private System.Windows.Forms.Button btn_VerContraseña_Click;
+        private System.Windows.Forms.Label lb_verContraseña;
     }
 }
 

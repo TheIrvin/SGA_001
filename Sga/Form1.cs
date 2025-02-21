@@ -142,18 +142,27 @@ namespace Sga
             lbl_Registrarse.Cursor = Cursors.Default;
         }
 
-        private void btn_VerContraseña_Click_Click(object sender, EventArgs e)
+        private void lb_verContraseña_Click(object sender, EventArgs e)
         {
             if (txtBox_Contraseña_login.UseSystemPasswordChar)
             {
                 txtBox_Contraseña_login.UseSystemPasswordChar = false;
-                btn_VerContraseña_Click.Text = "👁️";
+                lb_verContraseña.Text = "👁️";
             }
             else
             {
                 txtBox_Contraseña_login.UseSystemPasswordChar = true;
-                btn_VerContraseña_Click.Text = "👁️‍🗨️";
+                lb_verContraseña.Text = "👁️‍🗨️";
             }
+        }
+
+        private void lb_verContraseña_Click_MouseEnter(object sender, EventArgs e)
+        {
+            lb_verContraseña.Cursor = Cursors.Hand;
+        }
+        private void lb_verContraseña_Click_MouseLeave(object sender, EventArgs e)
+        {
+            lb_verContraseña.Cursor = Cursors.Default;
         }
     }
 }
