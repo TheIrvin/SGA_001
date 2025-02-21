@@ -173,6 +173,16 @@ namespace Sga.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Imagen_menú_profesor {
+            get {
+                object obj = ResourceManager.GetObject("Imagen_menú_profesor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mensajes_pic {
             get {
                 object obj = ResourceManager.GetObject("Mensajes_pic", resourceCulture);
