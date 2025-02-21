@@ -28,5 +28,12 @@ namespace Sga
             ListadeEstudiantes ListEstud = new ListadeEstudiantes();
             ListEstud.Show();
         }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu formAnterior = new Menu();
+            formAnterior.Show();
+        }
     }
 }

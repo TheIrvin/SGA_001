@@ -22,5 +22,12 @@ namespace Sga
         {
            
         }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Hide(); 
+            Confirmacion formAnterior = new Confirmacion(); 
+            formAnterior.Show();
+        }
     }
 }

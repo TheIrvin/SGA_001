@@ -31,6 +31,7 @@
             this.lbnRegistro = new System.Windows.Forms.Button();
             this.btnLista = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAtras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbnRegistro
@@ -73,6 +74,18 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Registro y Listado de Estudiantes";
             // 
+            // btnAtras
+            // 
+            this.btnAtras.BackgroundImage = global::Sga.Properties.Resources.atras;
+            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Location = new System.Drawing.Point(12, 12);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(64, 47);
+            this.btnAtras.TabIndex = 12;
+            this.btnAtras.UseVisualStyleBackColor = true;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            // 
             // Asistencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -80,6 +93,7 @@
             this.BackgroundImage = global::Sga.Properties.Resources.asistencias;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLista);
             this.Controls.Add(this.lbnRegistro);
@@ -95,5 +109,6 @@
         private System.Windows.Forms.Button lbnRegistro;
         private System.Windows.Forms.Button btnLista;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnAtras;
     }
 }

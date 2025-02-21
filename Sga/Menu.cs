@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,9 +31,15 @@ namespace Sga
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            asist = new Asistencia();
-            this.AddOwnedForm(asist);
-            asist.Show();
+            this.Hide();
+
+            // Abrir el formulario "Lista"
+            Asistencia formLista = new Asistencia();
+
+            // Evento para volver a mostrar "Menu" cuando se cierre "Lista"
+            formLista.FormClosed += (s, args) => this.Show();
+
+            formLista.Show();
         }
     }
 }

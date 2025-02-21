@@ -31,6 +31,7 @@
             this.lnlConfirmar = new System.Windows.Forms.Label();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnAcceder = new System.Windows.Forms.Button();
+            this.btnAtras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lnlConfirmar
@@ -73,6 +74,17 @@
             this.btnAcceder.UseVisualStyleBackColor = false;
             this.btnAcceder.Click += new System.EventHandler(this.btnAcceder_Click);
             // 
+            // btnAtras
+            // 
+            this.btnAtras.BackgroundImage = global::Sga.Properties.Resources.atras;
+            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Location = new System.Drawing.Point(12, 22);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(64, 47);
+            this.btnAtras.TabIndex = 13;
+            this.btnAtras.UseVisualStyleBackColor = true;
+            // 
             // Confirmacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -80,6 +92,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Sga.Properties.Resources.tigre_toyo;
             this.ClientSize = new System.Drawing.Size(592, 383);
+            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.lnlConfirmar);
@@ -96,5 +109,6 @@
         private System.Windows.Forms.Label lnlConfirmar;
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Button btnAcceder;
+        private System.Windows.Forms.Button btnAtras;
     }
 }

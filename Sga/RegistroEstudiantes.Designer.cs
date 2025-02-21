@@ -36,6 +36,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.lbnEditar = new System.Windows.Forms.Button();
+            this.btnAtras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblRegistroEstudiante
@@ -130,6 +131,18 @@
             this.lbnEditar.Text = "Editar Estudiante";
             this.lbnEditar.UseVisualStyleBackColor = false;
             // 
+            // btnAtras
+            // 
+            this.btnAtras.BackgroundImage = global::Sga.Properties.Resources.atras;
+            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Location = new System.Drawing.Point(12, 12);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(64, 47);
+            this.btnAtras.TabIndex = 11;
+            this.btnAtras.UseVisualStyleBackColor = true;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            // 
             // RegistroEstudiantes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -137,6 +150,7 @@
             this.BackgroundImage = global::Sga.Properties.Resources._0a7386931541a695d5d390fec975cb34;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.lbnEditar);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
@@ -162,5 +176,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button lbnEditar;
+        private System.Windows.Forms.Button btnAtras;
     }
 }
