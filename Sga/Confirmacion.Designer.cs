@@ -28,10 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Confirmacion));
             this.lnlConfirmar = new System.Windows.Forms.Label();
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.btnAcceder = new System.Windows.Forms.Button();
             this.btnAtras = new System.Windows.Forms.Button();
+            this.pcMinimizarConfirmacion = new System.Windows.Forms.PictureBox();
+            this.pcCerrarConfirmacion = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pcMinimizarConfirmacion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCerrarConfirmacion)).BeginInit();
             this.SuspendLayout();
             // 
             // lnlConfirmar
@@ -76,14 +81,45 @@
             // 
             // btnAtras
             // 
+            this.btnAtras.BackColor = System.Drawing.Color.Transparent;
             this.btnAtras.BackgroundImage = global::Sga.Properties.Resources.atras;
             this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAtras.Location = new System.Drawing.Point(12, 22);
+            this.btnAtras.Location = new System.Drawing.Point(12, 12);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(64, 47);
             this.btnAtras.TabIndex = 13;
-            this.btnAtras.UseVisualStyleBackColor = true;
+            this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            // 
+            // pcMinimizarConfirmacion
+            // 
+            this.pcMinimizarConfirmacion.BackColor = System.Drawing.Color.Transparent;
+            this.pcMinimizarConfirmacion.ErrorImage = null;
+            this.pcMinimizarConfirmacion.Image = ((System.Drawing.Image)(resources.GetObject("pcMinimizarConfirmacion.Image")));
+            this.pcMinimizarConfirmacion.InitialImage = null;
+            this.pcMinimizarConfirmacion.Location = new System.Drawing.Point(509, 12);
+            this.pcMinimizarConfirmacion.Margin = new System.Windows.Forms.Padding(4);
+            this.pcMinimizarConfirmacion.Name = "pcMinimizarConfirmacion";
+            this.pcMinimizarConfirmacion.Size = new System.Drawing.Size(36, 32);
+            this.pcMinimizarConfirmacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcMinimizarConfirmacion.TabIndex = 20;
+            this.pcMinimizarConfirmacion.TabStop = false;
+            this.pcMinimizarConfirmacion.Click += new System.EventHandler(this.pcMinimizarConfirmacion_Click);
+            // 
+            // pcCerrarConfirmacion
+            // 
+            this.pcCerrarConfirmacion.BackColor = System.Drawing.Color.Transparent;
+            this.pcCerrarConfirmacion.ErrorImage = null;
+            this.pcCerrarConfirmacion.Image = ((System.Drawing.Image)(resources.GetObject("pcCerrarConfirmacion.Image")));
+            this.pcCerrarConfirmacion.InitialImage = null;
+            this.pcCerrarConfirmacion.Location = new System.Drawing.Point(543, 12);
+            this.pcCerrarConfirmacion.Margin = new System.Windows.Forms.Padding(4);
+            this.pcCerrarConfirmacion.Name = "pcCerrarConfirmacion";
+            this.pcCerrarConfirmacion.Size = new System.Drawing.Size(36, 32);
+            this.pcCerrarConfirmacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcCerrarConfirmacion.TabIndex = 19;
+            this.pcCerrarConfirmacion.TabStop = false;
+            this.pcCerrarConfirmacion.Click += new System.EventHandler(this.pcCerrarConfirmacion_Click);
             // 
             // Confirmacion
             // 
@@ -91,14 +127,20 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::Sga.Properties.Resources.tigre_toyo;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(592, 383);
+            this.Controls.Add(this.pcMinimizarConfirmacion);
+            this.Controls.Add(this.pcCerrarConfirmacion);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnAcceder);
             this.Controls.Add(this.txtContraseña);
             this.Controls.Add(this.lnlConfirmar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Confirmacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Confirmacion";
+            ((System.ComponentModel.ISupportInitialize)(this.pcMinimizarConfirmacion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCerrarConfirmacion)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -110,5 +152,7 @@
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.Button btnAcceder;
         private System.Windows.Forms.Button btnAtras;
+        private System.Windows.Forms.PictureBox pcMinimizarConfirmacion;
+        private System.Windows.Forms.PictureBox pcCerrarConfirmacion;
     }
 }

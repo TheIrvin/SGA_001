@@ -167,5 +167,8 @@
   <ItemGroup>
     <None Include="Resources\atras.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herramientas-aprendizaje-imprimibles-plantilla-marco-borde_1308-159827.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

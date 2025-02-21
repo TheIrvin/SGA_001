@@ -47,14 +47,34 @@ namespace Sga
         {
             if (txtContraseña.Text == "1234")
             {
-                RegistroEstudiantes RegisEstud = new RegistroEstudiantes();
-                RegisEstud.Show();
+                this.Hide();
+                RegistroEstudiantes regis = new RegistroEstudiantes();
+                regis.FormClosed += (s, args) => this.Show();
+                regis.Show();
+                
             }
             else
             {
                 MessageBox.Show("Contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Asistencia formAnterior = new Asistencia();
+            formAnterior.Show();
+        }
+
+        private void pcCerrarConfirmacion_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pcMinimizarConfirmacion_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 

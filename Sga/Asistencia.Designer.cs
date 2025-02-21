@@ -28,10 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Asistencia));
             this.lbnRegistro = new System.Windows.Forms.Button();
             this.btnLista = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnAtras = new System.Windows.Forms.Button();
+            this.pcMinimizarAsistencia = new System.Windows.Forms.PictureBox();
+            this.pcCerrarAsistencia = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pcMinimizarAsistencia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCerrarAsistencia)).BeginInit();
             this.SuspendLayout();
             // 
             // lbnRegistro
@@ -86,6 +91,36 @@
             this.btnAtras.UseVisualStyleBackColor = true;
             this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
             // 
+            // pcMinimizarAsistencia
+            // 
+            this.pcMinimizarAsistencia.BackColor = System.Drawing.Color.Transparent;
+            this.pcMinimizarAsistencia.ErrorImage = null;
+            this.pcMinimizarAsistencia.Image = ((System.Drawing.Image)(resources.GetObject("pcMinimizarAsistencia.Image")));
+            this.pcMinimizarAsistencia.InitialImage = null;
+            this.pcMinimizarAsistencia.Location = new System.Drawing.Point(720, 12);
+            this.pcMinimizarAsistencia.Margin = new System.Windows.Forms.Padding(4);
+            this.pcMinimizarAsistencia.Name = "pcMinimizarAsistencia";
+            this.pcMinimizarAsistencia.Size = new System.Drawing.Size(36, 32);
+            this.pcMinimizarAsistencia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcMinimizarAsistencia.TabIndex = 14;
+            this.pcMinimizarAsistencia.TabStop = false;
+            this.pcMinimizarAsistencia.Click += new System.EventHandler(this.pcMinimizarAsistencia_Click);
+            // 
+            // pcCerrarAsistencia
+            // 
+            this.pcCerrarAsistencia.BackColor = System.Drawing.Color.Transparent;
+            this.pcCerrarAsistencia.ErrorImage = null;
+            this.pcCerrarAsistencia.Image = ((System.Drawing.Image)(resources.GetObject("pcCerrarAsistencia.Image")));
+            this.pcCerrarAsistencia.InitialImage = null;
+            this.pcCerrarAsistencia.Location = new System.Drawing.Point(754, 12);
+            this.pcCerrarAsistencia.Margin = new System.Windows.Forms.Padding(4);
+            this.pcCerrarAsistencia.Name = "pcCerrarAsistencia";
+            this.pcCerrarAsistencia.Size = new System.Drawing.Size(36, 32);
+            this.pcCerrarAsistencia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcCerrarAsistencia.TabIndex = 13;
+            this.pcCerrarAsistencia.TabStop = false;
+            this.pcCerrarAsistencia.Click += new System.EventHandler(this.pcCerrarAsistencia_Click);
+            // 
             // Asistencia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -93,12 +128,17 @@
             this.BackgroundImage = global::Sga.Properties.Resources.asistencias;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pcMinimizarAsistencia);
+            this.Controls.Add(this.pcCerrarAsistencia);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLista);
             this.Controls.Add(this.lbnRegistro);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Asistencia";
             this.Text = "Asistencia";
+            ((System.ComponentModel.ISupportInitialize)(this.pcMinimizarAsistencia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCerrarAsistencia)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -110,5 +150,7 @@
         private System.Windows.Forms.Button btnLista;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAtras;
+        private System.Windows.Forms.PictureBox pcMinimizarAsistencia;
+        private System.Windows.Forms.PictureBox pcCerrarAsistencia;
     }
 }

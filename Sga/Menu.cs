@@ -29,17 +29,22 @@ namespace Sga
             
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void boxAsistencia_Click(object sender, EventArgs e)
         {
             this.Hide();
-
-            // Abrir el formulario "Lista"
             Asistencia formLista = new Asistencia();
-
-            // Evento para volver a mostrar "Menu" cuando se cierre "Lista"
             formLista.FormClosed += (s, args) => this.Show();
-
             formLista.Show();
+        }
+
+        private void pcCerrarMenu_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pcMinimizarMenu_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }

@@ -123,6 +123,16 @@ namespace Sga.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap herramientas_aprendizaje_imprimibles_plantilla_marco_borde_1308_159827 {
+            get {
+                object obj = ResourceManager.GetObject("herramientas-aprendizaje-imprimibles-plantilla-marco-borde_1308-159827", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Horarios_pic {
             get {
                 object obj = ResourceManager.GetObject("Horarios_pic", resourceCulture);
