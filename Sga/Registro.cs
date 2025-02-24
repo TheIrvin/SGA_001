@@ -43,5 +43,12 @@ namespace Sga
                 this.Close();
             }
         }
+
+        private void bt_Regresar_Estudiante_Click(object sender, EventArgs e)
+        {
+            Form1 regresar_estudiante = new Form1();
+            regresar_estudiante.Show();
+            this.Close();
+        }
     }
 }

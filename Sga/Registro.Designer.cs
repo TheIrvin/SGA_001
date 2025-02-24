@@ -112,6 +112,7 @@
             this.bt_Regresar_Estudiante.TabIndex = 106;
             this.bt_Regresar_Estudiante.Text = "Regresar";
             this.bt_Regresar_Estudiante.UseVisualStyleBackColor = false;
+            this.bt_Regresar_Estudiante.Click += new System.EventHandler(this.bt_Regresar_Estudiante_Click);
             // 
             // txt_Contraseña_padres
             // 
