@@ -40,7 +40,7 @@
             this.btnRestauRegisProfe = new System.Windows.Forms.Button();
             this.btnMiniRegisProfe = new System.Windows.Forms.Button();
             this.btnMaxiRegisProfe = new System.Windows.Forms.Button();
-            this.btnCerrarRegisProfe = new System.Windows.Forms.Button();
+            this.bt_CerrarRegis_alumno = new System.Windows.Forms.Button();
             this.lblRegistroDocente = new System.Windows.Forms.Label();
             this.txtBox_teléfono_padres = new System.Windows.Forms.TextBox();
             this.bt_crearCuenta_Estudiante = new System.Windows.Forms.Button();
@@ -97,7 +97,7 @@
             this.txtBox_nombres_madre.Location = new System.Drawing.Point(341, 299);
             this.txtBox_nombres_madre.Name = "txtBox_nombres_madre";
             this.txtBox_nombres_madre.Size = new System.Drawing.Size(175, 19);
-            this.txtBox_nombres_madre.TabIndex = 107;
+            this.txtBox_nombres_madre.TabIndex = 91;
             // 
             // bt_Regresar_Estudiante
             // 
@@ -109,7 +109,7 @@
             this.bt_Regresar_Estudiante.Location = new System.Drawing.Point(340, 443);
             this.bt_Regresar_Estudiante.Name = "bt_Regresar_Estudiante";
             this.bt_Regresar_Estudiante.Size = new System.Drawing.Size(176, 53);
-            this.bt_Regresar_Estudiante.TabIndex = 106;
+            this.bt_Regresar_Estudiante.TabIndex = 96;
             this.bt_Regresar_Estudiante.Text = "Regresar";
             this.bt_Regresar_Estudiante.UseVisualStyleBackColor = false;
             this.bt_Regresar_Estudiante.Click += new System.EventHandler(this.bt_Regresar_Estudiante_Click);
@@ -122,7 +122,7 @@
             this.txt_Contraseña_padres.Location = new System.Drawing.Point(341, 399);
             this.txt_Contraseña_padres.Name = "txt_Contraseña_padres";
             this.txt_Contraseña_padres.Size = new System.Drawing.Size(175, 19);
-            this.txt_Contraseña_padres.TabIndex = 104;
+            this.txt_Contraseña_padres.TabIndex = 94;
             // 
             // label1
             // 
@@ -144,7 +144,7 @@
             this.panel_sga.Controls.Add(this.btnRestauRegisProfe);
             this.panel_sga.Controls.Add(this.btnMiniRegisProfe);
             this.panel_sga.Controls.Add(this.btnMaxiRegisProfe);
-            this.panel_sga.Controls.Add(this.btnCerrarRegisProfe);
+            this.panel_sga.Controls.Add(this.bt_CerrarRegis_alumno);
             this.panel_sga.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_sga.Location = new System.Drawing.Point(0, 0);
             this.panel_sga.Name = "panel_sga";
@@ -213,21 +213,22 @@
             this.btnMaxiRegisProfe.TabIndex = 3;
             this.btnMaxiRegisProfe.UseVisualStyleBackColor = false;
             // 
-            // btnCerrarRegisProfe
+            // bt_CerrarRegis_alumno
             // 
-            this.btnCerrarRegisProfe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCerrarRegisProfe.BackColor = System.Drawing.Color.Silver;
-            this.btnCerrarRegisProfe.BackgroundImage = global::Sga.Properties.Resources.Icono_cerrar_FN;
-            this.btnCerrarRegisProfe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrarRegisProfe.FlatAppearance.BorderSize = 0;
-            this.btnCerrarRegisProfe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
-            this.btnCerrarRegisProfe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnCerrarRegisProfe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrarRegisProfe.Location = new System.Drawing.Point(547, 0);
-            this.btnCerrarRegisProfe.Name = "btnCerrarRegisProfe";
-            this.btnCerrarRegisProfe.Size = new System.Drawing.Size(40, 40);
-            this.btnCerrarRegisProfe.TabIndex = 1;
-            this.btnCerrarRegisProfe.UseVisualStyleBackColor = false;
+            this.bt_CerrarRegis_alumno.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bt_CerrarRegis_alumno.BackColor = System.Drawing.Color.Silver;
+            this.bt_CerrarRegis_alumno.BackgroundImage = global::Sga.Properties.Resources.Icono_cerrar_FN;
+            this.bt_CerrarRegis_alumno.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_CerrarRegis_alumno.FlatAppearance.BorderSize = 0;
+            this.bt_CerrarRegis_alumno.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
+            this.bt_CerrarRegis_alumno.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.bt_CerrarRegis_alumno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_CerrarRegis_alumno.Location = new System.Drawing.Point(547, 0);
+            this.bt_CerrarRegis_alumno.Name = "bt_CerrarRegis_alumno";
+            this.bt_CerrarRegis_alumno.Size = new System.Drawing.Size(40, 40);
+            this.bt_CerrarRegis_alumno.TabIndex = 1;
+            this.bt_CerrarRegis_alumno.UseVisualStyleBackColor = false;
+            this.bt_CerrarRegis_alumno.Click += new System.EventHandler(this.bt_CerrarRegis_alumno_Click);
             // 
             // lblRegistroDocente
             // 
@@ -250,7 +251,7 @@
             this.txtBox_teléfono_padres.Location = new System.Drawing.Point(341, 366);
             this.txtBox_teléfono_padres.Name = "txtBox_teléfono_padres";
             this.txtBox_teléfono_padres.Size = new System.Drawing.Size(175, 19);
-            this.txtBox_teléfono_padres.TabIndex = 92;
+            this.txtBox_teléfono_padres.TabIndex = 93;
             // 
             // bt_crearCuenta_Estudiante
             // 
@@ -262,25 +263,26 @@
             this.bt_crearCuenta_Estudiante.Location = new System.Drawing.Point(31, 443);
             this.bt_crearCuenta_Estudiante.Name = "bt_crearCuenta_Estudiante";
             this.bt_crearCuenta_Estudiante.Size = new System.Drawing.Size(166, 53);
-            this.bt_crearCuenta_Estudiante.TabIndex = 93;
+            this.bt_crearCuenta_Estudiante.TabIndex = 95;
             this.bt_crearCuenta_Estudiante.Text = "Crear cuenta";
             this.bt_crearCuenta_Estudiante.UseVisualStyleBackColor = false;
+            this.bt_crearCuenta_Estudiante.Click += new System.EventHandler(this.bt_crearCuenta_Estudiante_Click);
             // 
             // cbox_registro_alumno
             // 
             this.cbox_registro_alumno.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.cbox_registro_alumno.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cbox_registro_alumno.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbox_registro_alumno.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbox_registro_alumno.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbox_registro_alumno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbox_registro_alumno.FormattingEnabled = true;
             this.cbox_registro_alumno.Items.AddRange(new object[] {
-            "Alumno"});
+            "Profesor"});
             this.cbox_registro_alumno.Location = new System.Drawing.Point(341, 145);
             this.cbox_registro_alumno.Name = "cbox_registro_alumno";
             this.cbox_registro_alumno.Size = new System.Drawing.Size(175, 28);
             this.cbox_registro_alumno.TabIndex = 87;
             this.cbox_registro_alumno.Tag = "";
+            this.cbox_registro_alumno.SelectedIndexChanged += new System.EventHandler(this.cbox_registro_alumno_SelectedIndexChanged);
             // 
             // lbl_tipoUsuario_profesor
             // 
@@ -352,7 +354,7 @@
             this.txt_gmail_padres.Location = new System.Drawing.Point(341, 332);
             this.txt_gmail_padres.Name = "txt_gmail_padres";
             this.txt_gmail_padres.Size = new System.Drawing.Size(175, 19);
-            this.txt_gmail_padres.TabIndex = 91;
+            this.txt_gmail_padres.TabIndex = 92;
             // 
             // txtBox_nombres_padre
             // 
@@ -449,6 +451,7 @@
             this.Controls.Add(this.label5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Registro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro";
             this.Load += new System.EventHandler(this.Registro_Load);
             this.panel_sga.ResumeLayout(false);
@@ -471,7 +474,7 @@
         private System.Windows.Forms.Button btnRestauRegisProfe;
         private System.Windows.Forms.Button btnMiniRegisProfe;
         private System.Windows.Forms.Button btnMaxiRegisProfe;
-        private System.Windows.Forms.Button btnCerrarRegisProfe;
+        private System.Windows.Forms.Button bt_CerrarRegis_alumno;
         private System.Windows.Forms.Label lblRegistroDocente;
         private System.Windows.Forms.TextBox txtBox_teléfono_padres;
         private System.Windows.Forms.Button bt_crearCuenta_Estudiante;

@@ -46,14 +46,14 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.lblRegistroDocente = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnCerrarRegisProfe = new System.Windows.Forms.Button();
+            this.bt_CerrarRegis_profesor = new System.Windows.Forms.Button();
             this.btnMiniRegisProfe = new System.Windows.Forms.Button();
             this.btnMaxiRegisProfe = new System.Windows.Forms.Button();
             this.btnRestauRegisProfe = new System.Windows.Forms.Button();
             this.panel_sga = new System.Windows.Forms.Panel();
             this.txtbox_profesor_contraseña = new System.Windows.Forms.TextBox();
             this.lbl_profesor_contraseña = new System.Windows.Forms.Label();
-            this.bt_regresar_estudiante = new System.Windows.Forms.Button();
+            this.bt_regresar_profesor = new System.Windows.Forms.Button();
             this.panel_sga.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,13 +70,13 @@
             this.bt_crearCuenta_profesor.TabIndex = 7;
             this.bt_crearCuenta_profesor.Text = "Crear cuenta";
             this.bt_crearCuenta_profesor.UseVisualStyleBackColor = false;
+            this.bt_crearCuenta_profesor.Click += new System.EventHandler(this.bt_crearCuenta_profesor_Click);
             // 
             // cbox_tipoUsuario_profesor
             // 
             this.cbox_tipoUsuario_profesor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.cbox_tipoUsuario_profesor.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.cbox_tipoUsuario_profesor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbox_tipoUsuario_profesor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbox_tipoUsuario_profesor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbox_tipoUsuario_profesor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbox_tipoUsuario_profesor.FormattingEnabled = true;
             this.cbox_tipoUsuario_profesor.Items.AddRange(new object[] {
@@ -241,9 +241,9 @@
             this.lblRegistroDocente.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lblRegistroDocente.Location = new System.Drawing.Point(153, 85);
             this.lblRegistroDocente.Name = "lblRegistroDocente";
-            this.lblRegistroDocente.Size = new System.Drawing.Size(311, 31);
+            this.lblRegistroDocente.Size = new System.Drawing.Size(314, 31);
             this.lblRegistroDocente.TabIndex = 80;
-            this.lblRegistroDocente.Text = "Registro de Estudiante";
+            this.lblRegistroDocente.Text = "Registro de Profesores";
             // 
             // label1
             // 
@@ -257,22 +257,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "SGA";
             // 
-            // btnCerrarRegisProfe
+            // bt_CerrarRegis_profesor
             // 
-            this.btnCerrarRegisProfe.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCerrarRegisProfe.BackColor = System.Drawing.Color.Silver;
-            this.btnCerrarRegisProfe.BackgroundImage = global::Sga.Properties.Resources.Icono_cerrar_FN;
-            this.btnCerrarRegisProfe.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCerrarRegisProfe.FlatAppearance.BorderSize = 0;
-            this.btnCerrarRegisProfe.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
-            this.btnCerrarRegisProfe.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnCerrarRegisProfe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrarRegisProfe.Location = new System.Drawing.Point(563, 0);
-            this.btnCerrarRegisProfe.Name = "btnCerrarRegisProfe";
-            this.btnCerrarRegisProfe.Size = new System.Drawing.Size(40, 40);
-            this.btnCerrarRegisProfe.TabIndex = 1;
-            this.btnCerrarRegisProfe.UseVisualStyleBackColor = false;
-            this.btnCerrarRegisProfe.Click += new System.EventHandler(this.btnCerrarRegisProfe_Click);
+            this.bt_CerrarRegis_profesor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bt_CerrarRegis_profesor.BackColor = System.Drawing.Color.Silver;
+            this.bt_CerrarRegis_profesor.BackgroundImage = global::Sga.Properties.Resources.Icono_cerrar_FN;
+            this.bt_CerrarRegis_profesor.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bt_CerrarRegis_profesor.FlatAppearance.BorderSize = 0;
+            this.bt_CerrarRegis_profesor.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MidnightBlue;
+            this.bt_CerrarRegis_profesor.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.bt_CerrarRegis_profesor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_CerrarRegis_profesor.Location = new System.Drawing.Point(563, 0);
+            this.bt_CerrarRegis_profesor.Name = "bt_CerrarRegis_profesor";
+            this.bt_CerrarRegis_profesor.Size = new System.Drawing.Size(40, 40);
+            this.bt_CerrarRegis_profesor.TabIndex = 1;
+            this.bt_CerrarRegis_profesor.UseVisualStyleBackColor = false;
+            this.bt_CerrarRegis_profesor.Click += new System.EventHandler(this.bt_CerrarRegis_profesor_Click);
             // 
             // btnMiniRegisProfe
             // 
@@ -334,7 +334,7 @@
             this.panel_sga.Controls.Add(this.btnRestauRegisProfe);
             this.panel_sga.Controls.Add(this.btnMiniRegisProfe);
             this.panel_sga.Controls.Add(this.btnMaxiRegisProfe);
-            this.panel_sga.Controls.Add(this.btnCerrarRegisProfe);
+            this.panel_sga.Controls.Add(this.bt_CerrarRegis_profesor);
             this.panel_sga.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_sga.Location = new System.Drawing.Point(0, 0);
             this.panel_sga.Name = "panel_sga";
@@ -365,20 +365,20 @@
             this.lbl_profesor_contraseña.TabIndex = 83;
             this.lbl_profesor_contraseña.Text = "Contraseña";
             // 
-            // bt_regresar_estudiante
+            // bt_regresar_profesor
             // 
-            this.bt_regresar_estudiante.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.bt_regresar_estudiante.BackColor = System.Drawing.Color.Transparent;
-            this.bt_regresar_estudiante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bt_regresar_estudiante.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_regresar_estudiante.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.bt_regresar_estudiante.Location = new System.Drawing.Point(358, 414);
-            this.bt_regresar_estudiante.Name = "bt_regresar_estudiante";
-            this.bt_regresar_estudiante.Size = new System.Drawing.Size(176, 53);
-            this.bt_regresar_estudiante.TabIndex = 84;
-            this.bt_regresar_estudiante.Text = "Regresar";
-            this.bt_regresar_estudiante.UseVisualStyleBackColor = false;
-            this.bt_regresar_estudiante.Click += new System.EventHandler(this.bt_regresar_estudiante_Click);
+            this.bt_regresar_profesor.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.bt_regresar_profesor.BackColor = System.Drawing.Color.Transparent;
+            this.bt_regresar_profesor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bt_regresar_profesor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_regresar_profesor.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.bt_regresar_profesor.Location = new System.Drawing.Point(358, 414);
+            this.bt_regresar_profesor.Name = "bt_regresar_profesor";
+            this.bt_regresar_profesor.Size = new System.Drawing.Size(176, 53);
+            this.bt_regresar_profesor.TabIndex = 84;
+            this.bt_regresar_profesor.Text = "Regresar";
+            this.bt_regresar_profesor.UseVisualStyleBackColor = false;
+            this.bt_regresar_profesor.Click += new System.EventHandler(this.bt_regresar_profesor_Click);
             // 
             // Registro_profesor
             // 
@@ -388,7 +388,7 @@
             this.BackgroundImage = global::Sga.Properties.Resources.modern_apartment_with_clean_bright_design_abstract_wallpaper_generated_by_ai_modified__1_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(603, 569);
-            this.Controls.Add(this.bt_regresar_estudiante);
+            this.Controls.Add(this.bt_regresar_profesor);
             this.Controls.Add(this.txtbox_profesor_contraseña);
             this.Controls.Add(this.lbl_profesor_contraseña);
             this.Controls.Add(this.panel_sga);
@@ -412,6 +412,7 @@
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Registro_profesor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registro_profesor";
             this.panel_sga.ResumeLayout(false);
             this.panel_sga.PerformLayout();
@@ -440,13 +441,13 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label lblRegistroDocente;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnCerrarRegisProfe;
+        private System.Windows.Forms.Button bt_CerrarRegis_profesor;
         private System.Windows.Forms.Button btnMiniRegisProfe;
         private System.Windows.Forms.Button btnMaxiRegisProfe;
         private System.Windows.Forms.Button btnRestauRegisProfe;
         private System.Windows.Forms.Panel panel_sga;
         private System.Windows.Forms.TextBox txtbox_profesor_contraseña;
         private System.Windows.Forms.Label lbl_profesor_contraseña;
-        private System.Windows.Forms.Button bt_regresar_estudiante;
+        private System.Windows.Forms.Button bt_regresar_profesor;
     }
 }

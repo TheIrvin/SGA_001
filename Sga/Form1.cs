@@ -29,15 +29,35 @@ namespace Sga
 
         private void btnAcceder_Click(object sender, EventArgs e)
         {
-            if (txtUsu.Text == "admin" && txtContra.Text == "1234")
+            C_verificar_login el_Login = new C_verificar_login();
+
+            string gmail = txtBox_Usuario_login.Text;
+            string contraseña = txtBox_Contraseña_login.Text;
+            bool resultado = el_Login.VerificarLogin(gmail, contraseña);
+
+            if (resultado)
             {
-                Menu menu = new Menu();
-                menu.Show();
+
+
+                string tipoUsuario = el_Login.ObtenerTipoUsuario(gmail);
+
+                if (tipoUsuario == "Alumno")
+                {
+                    Menu Menu_Alumno = new Menu();
+                    Menu_Alumno.Show();
+                    this.Hide();
+                }
+                else if (tipoUsuario == "Profesor")
+                {
+                    Menu_Profesor el_menu_profesor = new Menu_Profesor();
+                    el_menu_profesor.Show();
+                    this.Hide();
+                }
             }
             else
             {
-                MessageBox.Show("Usuario o contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                MessageBox.Show("Usuario o contraseña incorrecto.");
+            }//es para  acceder al login
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -67,46 +87,49 @@ namespace Sga
 
         private void txtUsu_Enter(object sender, EventArgs e)
         {
-            if (txtUsu.Text == "USUARIO")
+            if (txtBox_Usuario_login.Text == "USUARIO")
             {
-                txtUsu.Text = "";
-                txtUsu.ForeColor = Color.Blue;
+                txtBox_Usuario_login.Text = "";
+                txtBox_Usuario_login.ForeColor = Color.Blue;
             }
         }
 
         private void txtUsu_Leave(object sender, EventArgs e)
         {
-            if (txtUsu.Text == "")
+            if (txtBox_Usuario_login.Text == "")
             {
-                txtUsu.Text = "USUARIO";
-                txtUsu.ForeColor = Color.DarkBlue;
+                txtBox_Usuario_login.Text = "USUARIO";
+                txtBox_Usuario_login.ForeColor = Color.DarkBlue;
             }
         }
 
         private void txtContra_Enter(object sender, EventArgs e)
         {
-            if (txtContra.Text == "CONTRASEÑA")
+            if (txtBox_Contraseña_login.Text == "CONTRASEÑA")
             {
-                txtContra.Text = "";
-                txtContra.ForeColor = Color.Blue;
-                txtContra.UseSystemPasswordChar = true;
+                txtBox_Contraseña_login.Text = "";
+                txtBox_Contraseña_login.ForeColor = Color.Blue;
+                txtBox_Contraseña_login.UseSystemPasswordChar = true;
             }
         }
 
         private void txtContra_Leave(object sender, EventArgs e)
         {
-            if (txtContra.Text == "")
+            if (txtBox_Contraseña_login.Text == "")
             {
-                txtContra.Text = "CONTRASEÑA";
-                txtContra.ForeColor = Color.DarkBlue;
-                txtContra.UseSystemPasswordChar = false;
+                txtBox_Contraseña_login.Text = "CONTRASEÑA";
+                txtBox_Contraseña_login.ForeColor = Color.DarkBlue;
+                txtBox_Contraseña_login.UseSystemPasswordChar = false;
             }
         }
 
         private void lbl_Registrarse_Click(object sender, EventArgs e)
         {
-            Registro Fo_registro = new Registro();
-            Fo_registro.Show();
+            
+            Registro registro_Estudiante = new Registro();
+            registro_Estudiante.Show();
+            this.Hide();
+
         }
 
         private void lbl_Registrarse_MouseEnter(object sender, EventArgs e)
