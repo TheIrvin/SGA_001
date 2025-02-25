@@ -90,8 +90,7 @@
             this.txtBox_Usuario_login.Size = new System.Drawing.Size(310, 19);
             this.txtBox_Usuario_login.TabIndex = 2;
             this.txtBox_Usuario_login.Text = "USUARIO";
-            this.txtBox_Usuario_login.Enter += new System.EventHandler(this.txtBox_Usuario_login_Enter);
-            this.txtBox_Usuario_login.MouseLeave += new System.EventHandler(this.txtBox_Usuario_login_MouseLeave);
+           
             // 
             // txtBox_Contraseña_login
             // 
