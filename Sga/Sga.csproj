@@ -58,6 +58,10 @@
     <Compile Include="Confirmacion.Designer.cs">
       <DependentUpon>Confirmacion.cs</DependentUpon>
     </Compile>
+
+    <Compile Include="Conexión_BDD.cs" />
+    <Compile Include="C_el_Registro.cs" />
+    <Compile Include="C_verificar_login.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +79,12 @@
     </Compile>
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Profesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Profesor.Designer.cs">
+      <DependentUpon>Menu_Profesor.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,6 +106,13 @@
     <EmbeddedResource Include="Confirmacion.resx">
       <DependentUpon>Confirmacion.cs</DependentUpon>
     </EmbeddedResource>
+
+    <Compile Include="Registro_profesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registro_profesor.Designer.cs">
+      <DependentUpon>Registro_profesor.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +137,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegistroEstudiantes.resx">
       <DependentUpon>RegistroEstudiantes.cs</DependentUpon>
+    <EmbeddedResource Include="Registro_profesor.resx">
+      <DependentUpon>Registro_profesor.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -169,6 +188,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\herramientas-aprendizaje-imprimibles-plantilla-marco-borde_1308-159827.png" />
+
+    <None Include="Resources\Icono cerrar FN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Maximizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Restaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moren-hsu-VLaKsTkmVhk-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %284%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modern-apartment-with-clean-bright-design-abstract-wallpaper-generated-by-ai-modified %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen_menú_profesor.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

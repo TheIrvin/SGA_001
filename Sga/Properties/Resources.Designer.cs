@@ -143,9 +143,110 @@ namespace Sga.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Icono_cerrar_FN {
+            get {
+                object obj = ResourceManager.GetObject("Icono cerrar FN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icono_Maximizar {
+            get {
+                object obj = ResourceManager.GetObject("Icono Maximizar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icono_Minimizar {
+            get {
+                object obj = ResourceManager.GetObject("Icono Minimizar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icono_Restaurar {
+            get {
+                object obj = ResourceManager.GetObject("Icono Restaurar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__2_ {
+            get {
+                object obj = ResourceManager.GetObject("image (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__4_ {
+            get {
+                object obj = ResourceManager.GetObject("image (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image__4_1 {
+            get {
+                object obj = ResourceManager.GetObject("image (4)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Imagen_menú_profesor {
+            get {
+                object obj = ResourceManager.GetObject("Imagen_menú_profesor", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mensajes_pic {
             get {
                 object obj = ResourceManager.GetObject("Mensajes_pic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap modern_apartment_with_clean_bright_design_abstract_wallpaper_generated_by_ai_modified__1_ {
+            get {
+                object obj = ResourceManager.GetObject("modern-apartment-with-clean-bright-design-abstract-wallpaper-generated-by-ai-modi" +
+                        "fied (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap moren_hsu_VLaKsTkmVhk_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("moren-hsu-VLaKsTkmVhk-unsplash", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

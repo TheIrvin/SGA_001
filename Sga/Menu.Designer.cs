@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.boxAsistencia = new System.Windows.Forms.PictureBox();
@@ -87,6 +88,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+
             // 
             // pcCerrarMenu
             // 
@@ -122,7 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Sga.Properties.Resources.caja_vale_vrg;
+            this.BackgroundImage = global::Sga.Properties.Resources.Imagen_menú_profesor;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(911, 750);
             this.Controls.Add(this.pcMinimizarMenu);
@@ -133,9 +135,9 @@
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+
             this.Name = "Menu";
             this.Text = "Menu";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Menu_Load);
             this.BackgroundImageLayoutChanged += new System.EventHandler(this.Menu_BackgroundImageLayoutChanged);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -144,6 +146,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcCerrarMenu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcMinimizarMenu)).EndInit();
+
             this.ResumeLayout(false);
 
         }
@@ -156,5 +159,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pcCerrarMenu;
         private System.Windows.Forms.PictureBox pcMinimizarMenu;
+
     }
 }
