@@ -118,11 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Tarea_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tarea_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icono Minimizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icono Minimizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de pantalla 2025-02-14 235307" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2025-02-14 235307.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mensajes_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mensajes_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Horarios_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Horarios_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Asistencia_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Asistencia_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0a7386931541a695d5d390fec975cb34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0a7386931541a695d5d390fec975cb34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tigre toyo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tigre toyo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -132,20 +150,37 @@
   </data>
   <data name="asistencias" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\asistencias.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
   </data>
   <data name="caja vale vrg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\caja vale vrg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="atras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\atras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Mensajes_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mensajes_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Horarios_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Horarios_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
   </data>
-  <data name="Captura de pantalla 2025-02-14 235307" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2025-02-14 235307.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="modern-apartment-with-clean-bright-design-abstract-wallpaper-generated-by-ai-modified (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\modern-apartment-with-clean-bright-design-abstract-wallpaper-generated-by-ai-modified (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="0a7386931541a695d5d390fec975cb34" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\0a7386931541a695d5d390fec975cb34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="herramientas-aprendizaje-imprimibles-plantilla-marco-borde_1308-159827" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\herramientas-aprendizaje-imprimibles-plantilla-marco-borde_1308-159827.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+  <data name="image (4)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image (4)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icono cerrar FN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icono cerrar FN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tarea_pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tarea_pic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Imagen_menú_profesor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Imagen_menú_profesor.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

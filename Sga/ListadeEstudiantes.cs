@@ -25,5 +25,22 @@ namespace Sga
             
 
         }
+
+        private void pcCerrarLista_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pcMinimizarLista_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnAtrasLista_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Asistencia formAnterior = new Asistencia();
+            formAnterior.Show();
+        }
     }
 }

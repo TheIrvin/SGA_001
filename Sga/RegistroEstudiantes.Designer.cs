@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegistroEstudiantes));
             this.lblRegistroEstudiante = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblCedula = new System.Windows.Forms.Label();
@@ -36,6 +37,11 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.lbnEditar = new System.Windows.Forms.Button();
+            this.btnAtras = new System.Windows.Forms.Button();
+            this.pcMinimizarRegistro = new System.Windows.Forms.PictureBox();
+            this.pcCerrarRegistro = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pcMinimizarRegistro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCerrarRegistro)).BeginInit();
             this.SuspendLayout();
             // 
             // lblRegistroEstudiante
@@ -130,6 +136,48 @@
             this.lbnEditar.Text = "Editar Estudiante";
             this.lbnEditar.UseVisualStyleBackColor = false;
             // 
+            // btnAtras
+            // 
+            this.btnAtras.BackgroundImage = global::Sga.Properties.Resources.atras;
+            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Location = new System.Drawing.Point(12, 12);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(64, 47);
+            this.btnAtras.TabIndex = 11;
+            this.btnAtras.UseVisualStyleBackColor = true;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            // 
+            // pcMinimizarRegistro
+            // 
+            this.pcMinimizarRegistro.BackColor = System.Drawing.Color.Transparent;
+            this.pcMinimizarRegistro.ErrorImage = null;
+            this.pcMinimizarRegistro.Image = ((System.Drawing.Image)(resources.GetObject("pcMinimizarRegistro.Image")));
+            this.pcMinimizarRegistro.InitialImage = null;
+            this.pcMinimizarRegistro.Location = new System.Drawing.Point(726, 3);
+            this.pcMinimizarRegistro.Margin = new System.Windows.Forms.Padding(4);
+            this.pcMinimizarRegistro.Name = "pcMinimizarRegistro";
+            this.pcMinimizarRegistro.Size = new System.Drawing.Size(36, 32);
+            this.pcMinimizarRegistro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcMinimizarRegistro.TabIndex = 16;
+            this.pcMinimizarRegistro.TabStop = false;
+            this.pcMinimizarRegistro.Click += new System.EventHandler(this.pcMinimizarRegistro_Click);
+            // 
+            // pcCerrarRegistro
+            // 
+            this.pcCerrarRegistro.BackColor = System.Drawing.Color.Transparent;
+            this.pcCerrarRegistro.ErrorImage = null;
+            this.pcCerrarRegistro.Image = ((System.Drawing.Image)(resources.GetObject("pcCerrarRegistro.Image")));
+            this.pcCerrarRegistro.InitialImage = null;
+            this.pcCerrarRegistro.Location = new System.Drawing.Point(760, 3);
+            this.pcCerrarRegistro.Margin = new System.Windows.Forms.Padding(4);
+            this.pcCerrarRegistro.Name = "pcCerrarRegistro";
+            this.pcCerrarRegistro.Size = new System.Drawing.Size(36, 32);
+            this.pcCerrarRegistro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pcCerrarRegistro.TabIndex = 15;
+            this.pcCerrarRegistro.TabStop = false;
+            this.pcCerrarRegistro.Click += new System.EventHandler(this.pcCerrarRegistro_Click);
+            // 
             // RegistroEstudiantes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -137,6 +185,9 @@
             this.BackgroundImage = global::Sga.Properties.Resources._0a7386931541a695d5d390fec975cb34;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pcMinimizarRegistro);
+            this.Controls.Add(this.pcCerrarRegistro);
+            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.lbnEditar);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
@@ -145,8 +196,11 @@
             this.Controls.Add(this.lblCedula);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblRegistroEstudiante);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegistroEstudiantes";
             this.Text = "RegistroEstudiantes";
+            ((System.ComponentModel.ISupportInitialize)(this.pcMinimizarRegistro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcCerrarRegistro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -162,5 +216,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button lbnEditar;
+        private System.Windows.Forms.Button btnAtras;
+        private System.Windows.Forms.PictureBox pcMinimizarRegistro;
+        private System.Windows.Forms.PictureBox pcCerrarRegistro;
     }
 }
