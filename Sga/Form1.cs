@@ -37,6 +37,14 @@ namespace Sga
 
             if (resultado)
             {
+                Menu menu = new Menu();
+                menu.Show();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
 
                 string tipoUsuario = el_Login.ObtenerTipoUsuario(gmail);
