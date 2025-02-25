@@ -90,12 +90,8 @@
             this.txtBox_Usuario_login.Size = new System.Drawing.Size(310, 19);
             this.txtBox_Usuario_login.TabIndex = 2;
             this.txtBox_Usuario_login.Text = "USUARIO";
-            this.txtBox_Usuario_login.TextChanged += new System.EventHandler(this.txtUsu_TextChanged);
-            this.txtBox_Usuario_login.Enter += new System.EventHandler(this.txtUsu_Enter);
-            this.txtBox_Usuario_login.Leave += new System.EventHandler(this.txtUsu_Leave);
-            this.txtBox_Usuario_login.MouseEnter += new System.EventHandler(this.txtUsu_MouseEnter);
-            this.txtBox_Usuario_login.MouseLeave += new System.EventHandler(this.txtUsu_MouseLeave);
-            this.txtBox_Usuario_login.MouseHover += new System.EventHandler(this.txtUsu_MouseHover);
+            this.txtBox_Usuario_login.Enter += new System.EventHandler(this.txtBox_Usuario_login_Enter);
+            this.txtBox_Usuario_login.MouseLeave += new System.EventHandler(this.txtBox_Usuario_login_MouseLeave);
             // 
             // txtBox_Contraseña_login
             // 
@@ -108,8 +104,6 @@
             this.txtBox_Contraseña_login.Size = new System.Drawing.Size(309, 19);
             this.txtBox_Contraseña_login.TabIndex = 3;
             this.txtBox_Contraseña_login.Text = "CONTRASEÑA";
-            this.txtBox_Contraseña_login.Enter += new System.EventHandler(this.txtContra_Enter);
-            this.txtBox_Contraseña_login.Leave += new System.EventHandler(this.txtContra_Leave);
             // 
             // btnAcceder
             // 
@@ -150,7 +144,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lblPerdida
             // 
@@ -171,9 +164,6 @@
             this.lbl_Registrarse.Size = new System.Drawing.Size(60, 13);
             this.lbl_Registrarse.TabIndex = 8;
             this.lbl_Registrarse.Text = "Registrarse";
-            this.lbl_Registrarse.Click += new System.EventHandler(this.lbl_Registrarse_Click);
-            this.lbl_Registrarse.MouseEnter += new System.EventHandler(this.lbl_Registrarse_MouseEnter);
-            this.lbl_Registrarse.MouseLeave += new System.EventHandler(this.lbl_Registrarse_MouseLeave);
             // 
             // lbl_o
             // 
