@@ -63,9 +63,39 @@ namespace Sga.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _0a7386931541a695d5d390fec975cb34 {
+            get {
+                object obj = ResourceManager.GetObject("0a7386931541a695d5d390fec975cb34", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Asistencia_pic {
             get {
                 object obj = ResourceManager.GetObject("Asistencia_pic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap asistencias {
+            get {
+                object obj = ResourceManager.GetObject("asistencias", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap atras {
+            get {
+                object obj = ResourceManager.GetObject("atras", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -86,6 +116,16 @@ namespace Sga.Properties {
         internal static System.Drawing.Bitmap Captura_de_pantalla_2025_02_14_235307 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2025-02-14 235307", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap herramientas_aprendizaje_imprimibles_plantilla_marco_borde_1308_159827 {
+            get {
+                object obj = ResourceManager.GetObject("herramientas-aprendizaje-imprimibles-plantilla-marco-borde_1308-159827", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -227,6 +267,16 @@ namespace Sga.Properties {
         internal static System.Drawing.Bitmap TEJADO {
             get {
                 object obj = ResourceManager.GetObject("TEJADO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tigre_toyo {
+            get {
+                object obj = ResourceManager.GetObject("tigre toyo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

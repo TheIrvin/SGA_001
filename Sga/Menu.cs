@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,6 +14,7 @@ namespace Sga
 {
     public partial class Menu : Form
     {
+        Asistencia asist;
         public Menu()
         {
             InitializeComponent();
@@ -32,15 +34,20 @@ namespace Sga
             
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void boxAsistencia_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Asistencia formLista = new Asistencia();
+            formLista.FormClosed += (s, args) => this.Show();
+            formLista.Show();
         }
 
-        private void btnCerrar_Click(object sender, EventArgs e)
+        private void pcCerrarMenu_Click(object sender, EventArgs e)
+
         {
             Application.Exit();
         }
+
 
         private void panelMenu_Paint(object sender, PaintEventArgs e)
         {

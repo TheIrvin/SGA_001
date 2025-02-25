@@ -52,6 +52,13 @@
     <Compile Include="Asistencia.Designer.cs">
       <DependentUpon>Asistencia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Confirmacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmacion.Designer.cs">
+      <DependentUpon>Confirmacion.cs</DependentUpon>
+    </Compile>
+
     <Compile Include="Conexión_BDD.cs" />
     <Compile Include="C_el_Registro.cs" />
     <Compile Include="C_verificar_login.cs" />
@@ -60,6 +67,12 @@
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListadeEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadeEstudiantes.Designer.cs">
+      <DependentUpon>ListadeEstudiantes.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
@@ -81,6 +94,19 @@
     <Compile Include="Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegistroEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroEstudiantes.Designer.cs">
+      <DependentUpon>RegistroEstudiantes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Asistencia.resx">
+      <DependentUpon>Asistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmacion.resx">
+      <DependentUpon>Confirmacion.cs</DependentUpon>
+    </EmbeddedResource>
+
     <Compile Include="Registro_profesor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +115,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadeEstudiantes.resx">
+      <DependentUpon>ListadeEstudiantes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
@@ -106,6 +135,8 @@
     <EmbeddedResource Include="Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RegistroEstudiantes.resx">
+      <DependentUpon>RegistroEstudiantes.cs</DependentUpon>
     <EmbeddedResource Include="Registro_profesor.resx">
       <DependentUpon>Registro_profesor.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +175,20 @@
     <None Include="Resources\Mensajes_pic.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\tigre toyo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asistencias.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0a7386931541a695d5d390fec975cb34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herramientas-aprendizaje-imprimibles-plantilla-marco-borde_1308-159827.png" />
+
     <None Include="Resources\Icono cerrar FN.png" />
   </ItemGroup>
   <ItemGroup>
