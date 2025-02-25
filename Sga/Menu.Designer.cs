@@ -30,6 +30,7 @@
         {
             this.btnCerrar = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnRestaurarM = new System.Windows.Forms.Button();
             this.btnMaximizarmenu = new System.Windows.Forms.Button();
             this.btnMinimizar = new System.Windows.Forms.Button();
@@ -37,7 +38,6 @@
             this.btnAsistencias = new System.Windows.Forms.Button();
             this.btnHorarios = new System.Windows.Forms.Button();
             this.btnMensajes = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,6 +72,16 @@
             this.panelMenu.Size = new System.Drawing.Size(676, 65);
             this.panelMenu.TabIndex = 5;
             this.panelMenu.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelMenu_MouseMove);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 37);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "SGA";
             // 
             // btnRestaurarM
             // 
@@ -154,7 +164,7 @@
             this.btnHorarios.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnHorarios.FlatAppearance.BorderSize = 0;
             this.btnHorarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHorarios.Location = new System.Drawing.Point(150, 71);
+            this.btnHorarios.Location = new System.Drawing.Point(11, 295);
             this.btnHorarios.Name = "btnHorarios";
             this.btnHorarios.Size = new System.Drawing.Size(118, 99);
             this.btnHorarios.TabIndex = 8;
@@ -166,21 +176,11 @@
             this.btnMensajes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMensajes.FlatAppearance.BorderSize = 0;
             this.btnMensajes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMensajes.Location = new System.Drawing.Point(150, 176);
+            this.btnMensajes.Location = new System.Drawing.Point(11, 400);
             this.btnMensajes.Name = "btnMensajes";
-            this.btnMensajes.Size = new System.Drawing.Size(118, 113);
+            this.btnMensajes.Size = new System.Drawing.Size(118, 81);
             this.btnMensajes.TabIndex = 9;
             this.btnMensajes.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 37);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "SGA";
             // 
             // Menu
             // 
